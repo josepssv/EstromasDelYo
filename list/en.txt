@@ -1,0 +1,248 @@
+Nomenclature: 1: physical; 2: psychic; 3: logical; i: internal; c: contour; e: environment; !:own; _:next; -:far; P: past; .:I present; F: future;
+
+PAST
+-1 Pi!1 Internal own past who operated physical
+-2 Pi!2 Internal own past who operated psychic
+-3 Pi!3 Internal own past who operated logic
+-4 Pi_1 Internal near past who operated physical
+-5 Pi_2 Internal near past who operated psychic
+-6 Pi_3 Internal near past who operated logic
+-7 Pi-1 Internal far past who operated physical
+-8 Pi-2 Internal far past who operated psychic
+-9 Pi-3 Internal far past who operated logic
+-10 Pc!1 Contour own past who operated physical
+-11 Pc!2 Contour own past who operated psychic
+-12 Pc!3 Contour own past who operated logic
+-13 Pc_1 Contour near past who operated physical
+-14 Pc_2 Contour near past who operated psychic
+-15 Pc_3 Contour near past who operated logic
+-16 Pc-1 Contour far past who operated physical
+-17 Pc-2 Contour far past who operated psychic
+-18 Pc-3 Contour far past who operated logic
+-19 Pe!1 Environment own past who operated physical
+-20 Pe!2 Environment own past who operated psychic
+-21 Pe!3 Environment own past who operated logic
+-22 Pe_1 Environment near past who operated physical
+-23 Pe_2 Environment near past who operated psychic
+-24 Pe_3 Environment near past who operated logic
+-25 Pe-1 Environment far past who operated physical
+-26 Pe-2 Environment far past who operated psychic
+-27 Pe-3 Environment far past who operated logic
+-28 Pi!12 Internal own past who operated from physical to psychic
+-29 Pi!13 Internal own past who operated from physical to logic
+-30 Pi!21 Internal own past who operated from psychic to physical
+-31 Pi!23 Internal own past who operated from psychic to logic
+-32 Pi!31 Internal own past who operated from logic to physical
+-33 Pi!32 Internal own past who operated from logic to psychic
+-34 Pi_12 Internal near past who operated from physical to psychic
+-35 Pi_13 Internal near past who operated from physical to logic
+-36 Pi_21 Internal near past who operated from psychic to physical
+-37 Pi_23 Internal near past who operated from psychic to logic
+-38 Pi_31 Internal near past who operated from logic to physical
+-39 Pi_32 Internal near past who operated from logic to psychic
+-40 Pi-12 Internal far past who operated from physical to psychic
+-41 Pi-13 Internal far past who operated from physical to logic
+-42 Pi-21 Internal far past who operated from psychic to physical
+-43 Pi-23 Internal far past who operated from psychic to logic
+-44 Pi-31 Internal far past who operated from logic to physical
+-45 Pi-32 Internal far past who operated from logic to psychic
+-46 Pc!12 Contour own past who operated from physical to psychic
+-47 Pc!13 Contour own past who operated from physical to logic
+-48 Pc!21 Contour own past who operated from psychic to physical
+-49 Pc!23 Contour own past who operated from psychic to logic
+-50 Pc!31 Contour own past who operated from logic to physical
+-51 Pc!32 Contour own past who operated from logic to psychic
+-52 Pc_12 Contour near past who operated from physical to psychic
+-53 Pc_13 Contour near past who operated from physical to logic
+-54 Pc_21 Contour near past who operated from psychic to physical
+-55 Pc_23 Contour near past who operated from psychic to logic
+-56 Pc_31 Contour near past who operated from logic to physical
+-57 Pc_32 Contour near past who operated from logic to psychic
+-58 Pc-12 Contour far past who operated from physical to psychic
+-59 Pc-13 Contour far past who operated from physical to logic
+-60 Pc-21 Contour far past who operated from psychic to physical
+-61 Pc-23 Contour far past who operated from psychic to logic
+-62 Pc-31 Contour far past who operated from logic to physical
+-63 Pc-32 Contour far past who operated from logic to psychic
+-64 Pe!12 Environment own past who operated from physical to psychic
+-65 Pe!13 Environment own past who operated from physical to logic
+-66 Pe!21 Environment own past who operated from psychic to physical
+-67 Pe!23 Environment own past who operated from psychic to logic
+-68 Pe!31 Environment own past who operated from logic to physical
+-69 Pe!32 Environment own past who operated from logic to psychic
+-70 Pe_12 Environment near past who operated from physical to psychic
+-71 Pe_13 Environment near past who operated from physical to logic
+-72 Pe_21 Environment near past who operated from psychic to physical
+-73 Pe_23 Environment near past who operated from psychic to logic
+-74 Pe_31 Environment near past who operated from logic to physical
+-75 Pe_32 Environment near past who operated from logic to psychic
+-76 Pe-12 Environment far past who operated from physical to psychic
+-77 Pe-13 Environment far past who operated from physical to logic
+-78 Pe-21 Environment far past who operated from psychic to physical
+-79 Pe-23 Environment far past who operated from psychic to logic
+-80 Pe-31 Environment far past who operated from logic to physical
+-81 Pe-32 Environment far past who operated from logic to psychic
+PRESENT
+1 .i!1 Internal own present that operates physical
+2 .i!2 Internal own present that operates psychic
+3 .i!3 Internal own present that operates logic
+4 .i_1 Internal near present that operates physical
+5 .i_2 Internal near present that operates psychic
+6 .i_3 Internal near present that operates logic
+7 .i-1 Internal far present that operates physical
+8 .i-2 Internal far present that operates psychic
+9 .i-3 Internal far present that operates logic
+10 .c!1 Contour own present that operates physical
+11 .c!2 Contour own present that operates psychic
+12 .c!3 Contour own present that operates logic
+13 .c_1 Contour near present that operates physical
+14 .c_2 Contour near present that operates psychic
+15 .c_3 Contour near present that operates logic
+16 .c-1 Contour far present that operates physical
+17 .c-2 Contour far present that operates psychic
+18 .c-3 Contour far present that operates logic
+19 .e!1 Environment own present that operates physical
+20 .e!2 Environment own present that operates psychic
+21 .e!3 Environment own present that operates logic
+22 .e_1 Environment near present that operates physical
+23 .e_2 Environment near present that operates psychic
+24 .e_3 Environment near present that operates logic
+25 .e-1 Environment far present that operates physical
+26 .e-2 Environment far present that operates psychic
+27 .e-3 Environment far present that operates logic
+28 .i!12 Internal own present that operates from physical to psychic
+29 .i!13 Internal own present that operates from physical to logic
+30 .i!21 Internal own present that operates from psychic to physical
+31 .i!23 Internal own present that operates from psychic to logic
+32 .i!31 Internal own present that operates from logic to physical
+33 .i!32 Internal own present that operates from logic to psychic
+34 .i_12 Internal near present that operates from physical to psychic
+35 .i_13 Internal near present that operates from physical to logic
+36 .i_21 Internal near present that operates from psychic to physical
+37 .i_23 Internal near present that operates from psychic to logic
+38 .i_31 Internal near present that operates from logic to physical
+39 .i_32 Internal near present that operates from logic to psychic
+40 .i-12 Internal far present that operates from physical to psychic
+41 .i-13 Internal far present that operates from physical to logic
+42 .i-21 Internal far present that operates from psychic to physical
+43 .i-23 Internal far present that operates from psychic to logic
+44 .i-31 Internal far present that operates from logic to physical
+45 .i-32 Internal far present that operates from logic to psychic
+46 .c!12 Contour own present that operates from physical to psychic
+47 .c!13 Contour own present that operates from physical to logic
+48 .c!21 Contour own present that operates from psychic to physical
+49 .c!23 Contour own present that operates from psychic to logic
+50 .c!31 Contour own present that operates from logic to physical
+51 .c!32 Contour own present that operates from logic to psychic
+52 .c_12 Contour near present that operates from physical to psychic
+53 .c_13 Contour near present that operates from physical to logic
+54 .c_21 Contour near present that operates from psychic to physical
+55 .c_23 Contour near present that operates from psychic to logic
+56 .c_31 Contour near present that operates from logic to physical
+57 .c_32 Contour near present that operates from logic to psychic
+58 .c-12 Contour far present that operates from physical to psychic
+59 .c-13 Contour far present that operates from physical to logic
+60 .c-21 Contour far present that operates from psychic to physical
+61 .c-23 Contour far present that operates from psychic to logic
+62 .c-31 Contour far present that operates from logic to physical
+63 .c-32 Contour far present that operates from logic to psychic
+64 .e!12 Environment own present that operates from physical to psychic
+65 .e!13 Environment own present that operates from physical to logic
+66 .e!21 Environment own present that operates from psychic to physical
+67 .e!23 Environment own present that operates from psychic to logic
+68 .e!31 Environment own present that operates from logic to physical
+69 .e!32 Environment own present that operates from logic to psychic
+70 .e_12 Environment near present that operates from physical to psychic
+71 .e_13 Environment near present that operates from physical to logic
+72 .e_21 Environment near present that operates from psychic to physical
+73 .e_23 Environment near present that operates from psychic to logic
+74 .e_31 Environment near present that operates from logic to physical
+75 .e_32 Environment near present that operates from logic to psychic
+76 .e-12 Environment far present that operates from physical to psychic
+77 .e-13 Environment far present that operates from physical to logic
+78 .e-21 Environment far present that operates from psychic to physical
+79 .e-23 Environment far present that operates from psychic to logic
+80 .e-31 Environment far present that operates from logic to physical
+81 .e-32 Environment far present that operates from logic to psychic
+FUTURE
++1 Fi!1 Internal own future which will operate physical
++2 Fi!2 Internal own future which will operate psychic
++3 Fi!3 Internal own future which will operate logic
++4 Fi_1 Internal near future which will operate physical
++5 Fi_2 Internal near future which will operate psychic
++6 Fi_3 Internal near future which will operate logic
++7 Fi-1 Internal far future which will operate physical
++8 Fi-2 Internal far future which will operate psychic
++9 Fi-3 Internal far future which will operate logic
++10 Fc!1 Contour own future which will operate physical
++11 Fc!2 Contour own future which will operate psychic
++12 Fc!3 Contour own future which will operate logic
++13 Fc_1 Contour near future which will operate physical
++14 Fc_2 Contour near future which will operate psychic
++15 Fc_3 Contour near future which will operate logic
++16 Fc-1 Contour far future which will operate physical
++17 Fc-2 Contour far future which will operate psychic
++18 Fc-3 Contour far future which will operate logic
++19 Fe!1 Environment own future which will operate physical
++20 Fe!2 Environment own future which will operate psychic
++21 Fe!3 Environment own future which will operate logic
++22 Fe_1 Environment near future which will operate physical
++23 Fe_2 Environment near future which will operate psychic
++24 Fe_3 Environment near future which will operate logic
++25 Fe-1 Environment far future which will operate physical
++26 Fe-2 Environment far future which will operate psychic
++27 Fe-3 Environment far future which will operate logic
++28 Fi!12 Internal own future which will operate from physical to psychic
++29 Fi!13 Internal own future which will operate from physical to logic
++30 Fi!21 Internal own future which will operate from psychic to physical
++31 Fi!23 Internal own future which will operate from psychic to logic
++32 Fi!31 Internal own future which will operate from logic to physical
++33 Fi!32 Internal own future which will operate from logic to psychic
++34 Fi_12 Internal near future which will operate from physical to psychic
++35 Fi_13 Internal near future which will operate from physical to logic
++36 Fi_21 Internal near future which will operate from psychic to physical
++37 Fi_23 Internal near future which will operate from psychic to logic
++38 Fi_31 Internal near future which will operate from logic to physical
++39 Fi_32 Internal near future which will operate from logic to psychic
++40 Fi-12 Internal far future which will operate from physical to psychic
++41 Fi-13 Internal far future which will operate from physical to logic
++42 Fi-21 Internal far future which will operate from psychic to physical
++43 Fi-23 Internal far future which will operate from psychic to logic
++44 Fi-31 Internal far future which will operate from logic to physical
++45 Fi-32 Internal far future which will operate from logic to psychic
++46 Fc!12 Contour own future which will operate from physical to psychic
++47 Fc!13 Contour own future which will operate from physical to logic
++48 Fc!21 Contour own future which will operate from psychic to physical
++49 Fc!23 Contour own future which will operate from psychic to logic
++50 Fc!31 Contour own future which will operate from logic to physical
++51 Fc!32 Contour own future which will operate from logic to psychic
++52 Fc_12 Contour near future which will operate from physical to psychic
++53 Fc_13 Contour near future which will operate from physical to logic
++54 Fc_21 Contour near future which will operate from psychic to physical
++55 Fc_23 Contour near future which will operate from psychic to logic
++56 Fc_31 Contour near future which will operate from logic to physical
++57 Fc_32 Contour near future which will operate from logic to psychic
++58 Fc-12 Contour far future which will operate from physical to psychic
++59 Fc-13 Contour far future which will operate from physical to logic
++60 Fc-21 Contour far future which will operate from psychic to physical
++61 Fc-23 Contour far future which will operate from psychic to logic
++62 Fc-31 Contour far future which will operate from logic to physical
++63 Fc-32 Contour far future which will operate from logic to psychic
++64 Fe!12 Environment own future which will operate from physical to psychic
++65 Fe!13 Environment own future which will operate from physical to logic
++66 Fe!21 Environment own future which will operate from psychic to physical
++67 Fe!23 Environment own future which will operate from psychic to logic
++68 Fe!31 Environment own future which will operate from logic to physical
++69 Fe!32 Environment own future which will operate from logic to psychic
++70 Fe_12 Environment near future which will operate from physical to psychic
++71 Fe_13 Environment near future which will operate from physical to logic
++72 Fe_21 Environment near future which will operate from psychic to physical
++73 Fe_23 Environment near future which will operate from psychic to logic
++74 Fe_31 Environment near future which will operate from logic to physical
++75 Fe_32 Environment near future which will operate from logic to psychic
++76 Fe-12 Environment far future which will operate from physical to psychic
++77 Fe-13 Environment far future which will operate from physical to logic
++78 Fe-21 Environment far future which will operate from psychic to physical
++79 Fe-23 Environment far future which will operate from psychic to logic
++80 Fe-31 Environment far future which will operate from logic to physical
++81 Fe-32 Environment far future which will operate from logic to psychic
