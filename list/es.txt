@@ -1,0 +1,248 @@
+Nomenclatura: 1: físico; 2:psíquico; 3:lógico; i: interno; c:contorno; e:entorno; !:propio; _:próximo; -:lejano; P:pasado; .:presente; F:futuro;
+
+PASADO
+-1 Pi!1 Interno propio pasado que operó físico
+-2 Pi!2 Interno propio pasado que operó psíquico
+-3 Pi!3 Interno propio pasado que operó lógico
+-4 Pi_1 Interno cercano pasado que operó físico
+-5 Pi_2 Interno cercano pasado que operó psíquico
+-6 Pi_3 Interno cercano pasado que operó lógico
+-7 Pi-1 Interno lejano pasado que operó físico
+-8 Pi-2 Interno lejano pasado que operó psíquico
+-9 Pi-3 Interno lejano pasado que operó lógico
+-10 Pc!1 Contorno propio pasado que operó físico
+-11 Pc!2 Contorno propio pasado que operó psíquico
+-12 Pc!3 Contorno propio pasado que operó lógico
+-13 Pc_1 Contorno cercano pasado que operó físico
+-14 Pc_2 Contorno cercano pasado que operó psíquico
+-15 Pc_3 Contorno cercano pasado que operó lógico
+-16 Pc-1 Contorno lejano pasado que operó físico
+-17 Pc-2 Contorno lejano pasado que operó psíquico
+-18 Pc-3 Contorno lejano pasado que operó lógico
+-19 Pe!1 Entorno propio pasado que operó físico
+-20 Pe!2 Entorno propio pasado que operó psíquico
+-21 Pe!3 Entorno propio pasado que operó lógico
+-22 Pe_1 Entorno cercano pasado que operó físico
+-23 Pe_2 Entorno cercano pasado que operó psíquico
+-24 Pe_3 Entorno cercano pasado que operó lógico
+-25 Pe-1 Entorno lejano pasado que operó físico
+-26 Pe-2 Entorno lejano pasado que operó psíquico
+-27 Pe-3 Entorno lejano pasado que operó lógico
+-28 Pi!12 Interno propio pasado que operó de físico a psíquico
+-29 Pi!13 Interno propio pasado que operó de físico a lógico
+-30 Pi!21 Interno propio pasado que operó de psíquico a físico
+-31 Pi!23 Interno propio pasado que operó de psíquico a lógico
+-32 Pi!31 Interno propio pasado que operó de lógico a físico
+-33 Pi!32 Interno propio pasado que operó de lógico a psíquico
+-34 Pi_12 Interno cercano pasado que operó de físico a psíquico
+-35 Pi_13 Interno cercano pasado que operó de físico a lógico
+-36 Pi_21 Interno cercano pasado que operó de psíquico a físico
+-37 Pi_23 Interno cercano pasado que operó de psíquico a lógico
+-38 Pi_31 Interno cercano pasado que operó de lógico a físico
+-39 Pi_32 Interno cercano pasado que operó de lógico a psíquico
+-40 Pi-12 Interno lejano pasado que operó de físico a psíquico
+-41 Pi-13 Interno lejano pasado que operó de físico a lógico
+-42 Pi-21 Interno lejano pasado que operó de psíquico a físico
+-43 Pi-23 Interno lejano pasado que operó de psíquico a lógico
+-44 Pi-31 Interno lejano pasado que operó de lógico a físico
+-45 Pi-32 Interno lejano pasado que operó de lógico a psíquico
+-46 Pc!12 Contorno propio pasado que operó de físico a psíquico
+-47 Pc!13 Contorno propio pasado que operó de físico a lógico
+-48 Pc!21 Contorno propio pasado que operó de psíquico a físico
+-49 Pc!23 Contorno propio pasado que operó de psíquico a lógico
+-50 Pc!31 Contorno propio pasado que operó de lógico a físico
+-51 Pc!32 Contorno propio pasado que operó de lógico a psíquico
+-52 Pc_12 Contorno cercano pasado que operó de físico a psíquico
+-53 Pc_13 Contorno cercano pasado que operó de físico a lógico
+-54 Pc_21 Contorno cercano pasado que operó de psíquico a físico
+-55 Pc_23 Contorno cercano pasado que operó de psíquico a lógico
+-56 Pc_31 Contorno cercano pasado que operó de lógico a físico
+-57 Pc_32 Contorno cercano pasado que operó de lógico a psíquico
+-58 Pc-12 Contorno lejano pasado que operó de físico a psíquico
+-59 Pc-13 Contorno lejano pasado que operó de físico a lógico
+-60 Pc-21 Contorno lejano pasado que operó de psíquico a físico
+-61 Pc-23 Contorno lejano pasado que operó de psíquico a lógico
+-62 Pc-31 Contorno lejano pasado que operó de lógico a físico
+-63 Pc-32 Contorno lejano pasado que operó de lógico a psíquico
+-64 Pe!12 Entorno propio pasado que operó de físico a psíquico
+-65 Pe!13 Entorno propio pasado que operó de físico a lógico
+-66 Pe!21 Entorno propio pasado que operó de psíquico a físico
+-67 Pe!23 Entorno propio pasado que operó de psíquico a lógico
+-68 Pe!31 Entorno propio pasado que operó de lógico a físico
+-69 Pe!32 Entorno propio pasado que operó de lógico a psíquico
+-70 Pe_12 Entorno cercano pasado que operó de físico a psíquico
+-71 Pe_13 Entorno cercano pasado que operó de físico a lógico
+-72 Pe_21 Entorno cercano pasado que operó de psíquico a físico
+-73 Pe_23 Entorno cercano pasado que operó de psíquico a lógico
+-74 Pe_31 Entorno cercano pasado que operó de lógico a físico
+-75 Pe_32 Entorno cercano pasado que operó de lógico a psíquico
+-76 Pe-12 Entorno lejano pasado que operó de físico a psíquico
+-77 Pe-13 Entorno lejano pasado que operó de físico a lógico
+-78 Pe-21 Entorno lejano pasado que operó de psíquico a físico
+-79 Pe-23 Entorno lejano pasado que operó de psíquico a lógico
+-80 Pe-31 Entorno lejano pasado que operó de lógico a físico
+-81 Pe-32 Entorno lejano pasado que operó de lógico a psíquico
+PRESENTE
+1 .i!1 Interno propio presente que opera físico
+2 .i!2 Interno propio presente que opera psíquico
+3 .i!3 Interno propio presente que opera lógico
+4 .i_1 Interno cercano presente que opera físico
+5 .i_2 Interno cercano presente que opera psíquico
+6 .i_3 Interno cercano presente que opera lógico
+7 .i-1 Interno lejano presente que opera físico
+8 .i-2 Interno lejano presente que opera psíquico
+9 .i-3 Interno lejano presente que opera lógico
+10 .c!1 Contorno propio presente que opera físico
+11 .c!2 Contorno propio presente que opera psíquico
+12 .c!3 Contorno propio presente que opera lógico
+13 .c_1 Contorno cercano presente que opera físico
+14 .c_2 Contorno cercano presente que opera psíquico
+15 .c_3 Contorno cercano presente que opera lógico
+16 .c-1 Contorno lejano presente que opera físico
+17 .c-2 Contorno lejano presente que opera psíquico
+18 .c-3 Contorno lejano presente que opera lógico
+19 .e!1 Entorno propio presente que opera físico
+20 .e!2 Entorno propio presente que opera psíquico
+21 .e!3 Entorno propio presente que opera lógico
+22 .e_1 Entorno cercano presente que opera físico
+23 .e_2 Entorno cercano presente que opera psíquico
+24 .e_3 Entorno cercano presente que opera lógico
+25 .e-1 Entorno lejano presente que opera físico
+26 .e-2 Entorno lejano presente que opera psíquico
+27 .e-3 Entorno lejano presente que opera lógico
+28 .i!12 Interno propio presente que opera de físico a psíquico
+29 .i!13 Interno propio presente que opera de físico a lógico
+30 .i!21 Interno propio presente que opera de psíquico a físico
+31 .i!23 Interno propio presente que opera de psíquico a lógico
+32 .i!31 Interno propio presente que opera de lógico a físico
+33 .i!32 Interno propio presente que opera de lógico a psíquico
+34 .i_12 Interno cercano presente que opera de físico a psíquico
+35 .i_13 Interno cercano presente que opera de físico a lógico
+36 .i_21 Interno cercano presente que opera de psíquico a físico
+37 .i_23 Interno cercano presente que opera de psíquico a lógico
+38 .i_31 Interno cercano presente que opera de lógico a físico
+39 .i_32 Interno cercano presente que opera de lógico a psíquico
+40 .i-12 Interno lejano presente que opera de físico a psíquico
+41 .i-13 Interno lejano presente que opera de físico a lógico
+42 .i-21 Interno lejano presente que opera de psíquico a físico
+43 .i-23 Interno lejano presente que opera de psíquico a lógico
+44 .i-31 Interno lejano presente que opera de lógico a físico
+45 .i-32 Interno lejano presente que opera de lógico a psíquico
+46 .c!12 Contorno propio presente que opera de físico a psíquico
+47 .c!13 Contorno propio presente que opera de físico a lógico
+48 .c!21 Contorno propio presente que opera de psíquico a físico
+49 .c!23 Contorno propio presente que opera de psíquico a lógico
+50 .c!31 Contorno propio presente que opera de lógico a físico
+51 .c!32 Contorno propio presente que opera de lógico a psíquico
+52 .c_12 Contorno cercano presente que opera de físico a psíquico
+53 .c_13 Contorno cercano presente que opera de físico a lógico
+54 .c_21 Contorno cercano presente que opera de psíquico a físico
+55 .c_23 Contorno cercano presente que opera de psíquico a lógico
+56 .c_31 Contorno cercano presente que opera de lógico a físico
+57 .c_32 Contorno cercano presente que opera de lógico a psíquico
+58 .c-12 Contorno lejano presente que opera de físico a psíquico
+59 .c-13 Contorno lejano presente que opera de físico a lógico
+60 .c-21 Contorno lejano presente que opera de psíquico a físico
+61 .c-23 Contorno lejano presente que opera de psíquico a lógico
+62 .c-31 Contorno lejano presente que opera de lógico a físico
+63 .c-32 Contorno lejano presente que opera de lógico a psíquico
+64 .e!12 Entorno propio presente que opera de físico a psíquico
+65 .e!13 Entorno propio presente que opera de físico a lógico
+66 .e!21 Entorno propio presente que opera de psíquico a físico
+67 .e!23 Entorno propio presente que opera de psíquico a lógico
+68 .e!31 Entorno propio presente que opera de lógico a físico
+69 .e!32 Entorno propio presente que opera de lógico a psíquico
+70 .e_12 Entorno cercano presente que opera de físico a psíquico
+71 .e_13 Entorno cercano presente que opera de físico a lógico
+72 .e_21 Entorno cercano presente que opera de psíquico a físico
+73 .e_23 Entorno cercano presente que opera de psíquico a lógico
+74 .e_31 Entorno cercano presente que opera de lógico a físico
+75 .e_32 Entorno cercano presente que opera de lógico a psíquico
+76 .e-12 Entorno lejano presente que opera de físico a psíquico
+77 .e-13 Entorno lejano presente que opera de físico a lógico
+78 .e-21 Entorno lejano presente que opera de psíquico a físico
+79 .e-23 Entorno lejano presente que opera de psíquico a lógico
+80 .e-31 Entorno lejano presente que opera de lógico a físico
+81 .e-32 Entorno lejano presente que opera de lógico a psíquico
+FUTURO
++1 Fi!1 Interno propio futuro que operará físico
++2 Fi!2 Interno propio futuro que operará psíquico
++3 Fi!3 Interno propio futuro que operará lógico
++4 Fi_1 Interno cercano futuro que operará físico
++5 Fi_2 Interno cercano futuro que operará psíquico
++6 Fi_3 Interno cercano futuro que operará lógico
++7 Fi-1 Interno lejano futuro que operará físico
++8 Fi-2 Interno lejano futuro que operará psíquico
++9 Fi-3 Interno lejano futuro que operará lógico
++10 Fc!1 Contorno propio futuro que operará físico
++11 Fc!2 Contorno propio futuro que operará psíquico
++12 Fc!3 Contorno propio futuro que operará lógico
++13 Fc_1 Contorno cercano futuro que operará físico
++14 Fc_2 Contorno cercano futuro que operará psíquico
++15 Fc_3 Contorno cercano futuro que operará lógico
++16 Fc-1 Contorno lejano futuro que operará físico
++17 Fc-2 Contorno lejano futuro que operará psíquico
++18 Fc-3 Contorno lejano futuro que operará lógico
++19 Fe!1 Entorno propio futuro que operará físico
++20 Fe!2 Entorno propio futuro que operará psíquico
++21 Fe!3 Entorno propio futuro que operará lógico
++22 Fe_1 Entorno cercano futuro que operará físico
++23 Fe_2 Entorno cercano futuro que operará psíquico
++24 Fe_3 Entorno cercano futuro que operará lógico
++25 Fe-1 Entorno lejano futuro que operará físico
++26 Fe-2 Entorno lejano futuro que operará psíquico
++27 Fe-3 Entorno lejano futuro que operará lógico
++28 Fi!12 Interno propio futuro que operará de físico a psíquico
++29 Fi!13 Interno propio futuro que operará de físico a lógico
++30 Fi!21 Interno propio futuro que operará de psíquico a físico
++31 Fi!23 Interno propio futuro que operará de psíquico a lógico
++32 Fi!31 Interno propio futuro que operará de lógico a físico
++33 Fi!32 Interno propio futuro que operará de lógico a psíquico
++34 Fi_12 Interno cercano futuro que operará de físico a psíquico
++35 Fi_13 Interno cercano futuro que operará de físico a lógico
++36 Fi_21 Interno cercano futuro que operará de psíquico a físico
++37 Fi_23 Interno cercano futuro que operará de psíquico a lógico
++38 Fi_31 Interno cercano futuro que operará de lógico a físico
++39 Fi_32 Interno cercano futuro que operará de lógico a psíquico
++40 Fi-12 Interno lejano futuro que operará de físico a psíquico
++41 Fi-13 Interno lejano futuro que operará de físico a lógico
++42 Fi-21 Interno lejano futuro que operará de psíquico a físico
++43 Fi-23 Interno lejano futuro que operará de psíquico a lógico
++44 Fi-31 Interno lejano futuro que operará de lógico a físico
++45 Fi-32 Interno lejano futuro que operará de lógico a psíquico
++46 Fc!12 Contorno propio futuro que operará de físico a psíquico
++47 Fc!13 Contorno propio futuro que operará de físico a lógico
++48 Fc!21 Contorno propio futuro que operará de psíquico a físico
++49 Fc!23 Contorno propio futuro que operará de psíquico a lógico
++50 Fc!31 Contorno propio futuro que operará de lógico a físico
++51 Fc!32 Contorno propio futuro que operará de lógico a psíquico
++52 Fc_12 Contorno cercano futuro que operará de físico a psíquico
++53 Fc_13 Contorno cercano futuro que operará de físico a lógico
++54 Fc_21 Contorno cercano futuro que operará de psíquico a físico
++55 Fc_23 Contorno cercano futuro que operará de psíquico a lógico
++56 Fc_31 Contorno cercano futuro que operará de lógico a físico
++57 Fc_32 Contorno cercano futuro que operará de lógico a psíquico
++58 Fc-12 Contorno lejano futuro que operará de físico a psíquico
++59 Fc-13 Contorno lejano futuro que operará de físico a lógico
++60 Fc-21 Contorno lejano futuro que operará de psíquico a físico
++61 Fc-23 Contorno lejano futuro que operará de psíquico a lógico
++62 Fc-31 Contorno lejano futuro que operará de lógico a físico
++63 Fc-32 Contorno lejano futuro que operará de lógico a psíquico
++64 Fe!12 Entorno propio futuro que operará de físico a psíquico
++65 Fe!13 Entorno propio futuro que operará de físico a lógico
++66 Fe!21 Entorno propio futuro que operará de psíquico a físico
++67 Fe!23 Entorno propio futuro que operará de psíquico a lógico
++68 Fe!31 Entorno propio futuro que operará de lógico a físico
++69 Fe!32 Entorno propio futuro que operará de lógico a psíquico
++70 Fe_12 Entorno cercano futuro que operará de físico a psíquico
++71 Fe_13 Entorno cercano futuro que operará de físico a lógico
++72 Fe_21 Entorno cercano futuro que operará de psíquico a físico
++73 Fe_23 Entorno cercano futuro que operará de psíquico a lógico
++74 Fe_31 Entorno cercano futuro que operará de lógico a físico
++75 Fe_32 Entorno cercano futuro que operará de lógico a psíquico
++76 Fe-12 Entorno lejano futuro que operará de físico a psíquico
++77 Fe-13 Entorno lejano futuro que operará de físico a lógico
++78 Fe-21 Entorno lejano futuro que operará de psíquico a físico
++79 Fe-23 Entorno lejano futuro que operará de psíquico a lógico
++80 Fe-31 Entorno lejano futuro que operará de lógico a físico
++81 Fe-32 Entorno lejano futuro que operará de lógico a psíquico
