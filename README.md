@@ -16,3 +16,16 @@ Artículo principal
   En inglés
   
     https://doi.org/10.5281/zenodo.3336107
+    
+
+Listados
+
+  En español
+  
+    Listado de estromas https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/es.txt
+    Listado de estromas con ejemplos https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/examples_es.txt
+    
+  En inglés
+  
+    Stroma listing https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/en.txt
+
