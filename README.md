@@ -2,31 +2,40 @@
 Impresiones, listados y código sobre estromas del Yo
 
 
-Artículo principal
+
+**Artículo principal**
 
   https://doi.org/10.5281/zenodo.3339869
 
 
-Áreas estructuradas en tablas
+**Áreas estructuradas en tablas**
 
-  En español
+  Español
   
     https://doi.org/10.5281/zenodo.3336089
     
-  En inglés
+  English
   
     https://doi.org/10.5281/zenodo.3336107
     
 
-Listados
+**Listados de estromas**
 
-  En español
+  Español
   
-    [Listado de estromas](https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/es.txt) 
-    
-    [Listado de estromas con ejemplos] (https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/examples_es.txt)
-    
-  En inglés
+    https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/es.txt 
+   
+  English
   
-    [Stroma listing] (https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/en.txt)
+    https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/en.txt
+    
+ 
+ **Listados de estromas con ejemplos**
+ 
+  Español
+  
+     https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/examples_es.txt
+       
+       
+       
 
