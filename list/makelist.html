@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Tabla periódica de las áreas del yo estromático. Stromatic areas of the self Periodic Table </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="traduce.js"></script>
+    <style>
+  	  body{font-family:arial;overflow:visible; padding-left:100px;}
+	</style>
+    <script>
+   //LENGUAJE
+    var lengua = ['es', 'en']
+    var leNivel = [{ 't': 'E1', 'n': 1, 'prop': ['físico', 'physical'] }, { 't': 'E2', 'n': 2, 'prop': ['psíquico', 'psychic'] }, { 't': 'E3', 'n': 3, 'prop': ['lógico', 'logic'] }]
+    var leEntorno = [{ 't': 'i', 'n': 0, 'prop': ['interno', 'internal'] }, { 't': 'c', 'n': 0, 'prop': ['contorno', 'contour'] }, { 't': 'e', 'n': 0, 'prop': ['entorno', 'environment'] }]
+    var leDistancia = [{ 't': '!', 'n': 0, 'prop': ['propio', 'own'] }, { 't': '_', 'n': 0, 'prop': ['cercano', 'near'] }, { 't': 'i-', 'n': 0, 'prop': ['lejano', 'far'] }]
+    var leTiempoX = [{ 't': 'P', 'n': -1, 'prop': ['pasado', 'past'] }, { 't': '.', 'n': 0, 'prop': ['presente', 'present'] }, { 't': 'F', 'n': 1, 'prop': ['futuro', 'future'] }]
+    var leTiempo = [
+        ['pasado', 'past'],
+        ['presente', 'present'],
+        ['futuro', 'future']
+    ]
+    var lePrepos = [
+        [' de ', ' a '],
+        [' from ', ' to ']
+    ]
+    var leList = [
+        ['listados', 'listings'],
+        ['Listado general ', 'General list']
+    ]
+    var leVerbo = { 'pasado': [' que operó ', ' who operated '], 'presente': [' que opera ', ' that operates '], 'futuro': [' que operará ', ' which will operate '] }
+    var leTitulo = ['TABLA PERIÓDICA DE LAS ÁREAS ESTROMÁTICAS DEL "YO". DOS OPERACIONES, TRES CAPAS ESPACIALES Y UNA CAPA TEMPORAL', 'STROMATICAL AREAS OF THE SELF PERIODIC TABLE. TWO OPERATIONS, THREE SPACE LAYERS AND A TEMPORARY LAYER']
+    var leNomenclatura = ['Nomenclatura: 1: físico; 2:psíquico; 3:lógico; i: interno; c:contorno; e:entorno; !:propio; _:próximo; -:lejano; P:pasado; .:presente; F:futuro; ', 'Nomenclature:  1: physical; 2: psychic; 3: logical; i: internal; c: contour; e: environment; !:own; _:next; -:far; P: past; .:I present; F: future;']
+    var leOperativo = ['Espacio', 'Space']
+    var leOperativos = [{}, { 't': ['espacio operativo de la manos y las herramientas', 'operational space of hands and tools'] }, { 't': ['espacio perceptivo de las amenazas cercanas y operativo de la pose', 'perceptive space of nearby threats and operational of the pose'] }, { 't': ['espacio perceptivo y operativo de la salud y el confort', 'perceptual and operational space of health and comfort'] }]
+    var leEjemplo = ['Ejemplo', 'Example']
+    var ice = [{ 't': 'i!', 'n': 0, 'prop': 'dintorno propio' }, { 't': 'i_', 'n': 0, 'prop': 'dintorno cercano' }, { 't': 'i-', 'n': 0, 'prop': 'dintorno lejano' }, { 't': 'c!', 'n': 1, 'prop': 'contorno propio' }, { 't': 'c_', 'n': 1, 'prop': 'contorno cercano' }, { 't': 'c-', 'n': 1, 'prop': 'contorno lejano' }, { 't': 'e!', 'n': 2, 'prop': 'Entorno propio' }, { 't': 'e_', 'n': 2, 'prop': 'Entorno cercano' }, { 't': 'e_', 'n': 2, 'prop': 'Entorno lejano' }]
+    //END LENGUAJE
+    </script>
+</head>
+
+<body>
+    <div id="yo" style="display:visible;">
+        <div data-role="header">
+        	<div id="title"></div>
+            <div id="nomenclatura"></div>
+            <div id="listadoGeneral"></div>
+        </div>
+    </div>
+ 
+    <script type="text/javascript">
+    var actualPage = 'yo';
+
+    var selectlengua = 1;
+
+
+
+    var Pasado = "Pi!1 Pi!2 Pi!3 Pi_1 Pi_2 Pi_3 Pi-1 Pi-2 Pi-3 Pc!1 Pc!2 Pc!3 Pc_1 Pc_2 Pc_3 Pc-1 Pc-2 Pc-3 Pe!1 Pe!2 Pe!3 Pe_1 Pe_2 Pe_3 Pe-1 Pe-2 Pe-3 Pi!12 Pi!13 Pi!21 Pi!23 Pi!31 Pi!32 Pi_12 Pi_13 Pi_21 Pi_23 Pi_31 Pi_32 Pi-12 Pi-13 Pi-21 Pi-23 Pi-31 Pi-32 Pc!12 Pc!13 Pc!21 Pc!23 Pc!31 Pc!32 Pc_12 Pc_13 Pc_21 Pc_23 Pc_31 Pc_32 Pc-12 Pc-13 Pc-21 Pc-23 Pc-31 Pc-32 Pe!12 Pe!13 Pe!21 Pe!23 Pe!31 Pe!32 Pe_12 Pe_13 Pe_21 Pe_23 Pe_31 Pe_32 Pe-12 Pe-13 Pe-21 Pe-23 Pe-31 Pe-32".split(' ');
+    var Presente = ".i!1 .i!2 .i!3 .i_1 .i_2 .i_3 .i-1 .i-2 .i-3 .c!1 .c!2 .c!3 .c_1 .c_2 .c_3 .c-1 .c-2 .c-3 .e!1 .e!2 .e!3 .e_1 .e_2 .e_3 .e-1 .e-2 .e-3 .i!12 .i!13 .i!21 .i!23 .i!31 .i!32 .i_12 .i_13 .i_21 .i_23 .i_31 .i_32 .i-12 .i-13 .i-21 .i-23 .i-31 .i-32 .c!12 .c!13 .c!21 .c!23 .c!31 .c!32 .c_12 .c_13 .c_21 .c_23 .c_31 .c_32 .c-12 .c-13 .c-21 .c-23 .c-31 .c-32 .e!12 .e!13 .e!21 .e!23 .e!31 .e!32 .e_12 .e_13 .e_21 .e_23 .e_31 .e_32 .e-12 .e-13 .e-21 .e-23 .e-31 .e-32".split(' ');
+    var Futuro = "Fi!1 Fi!2 Fi!3 Fi_1 Fi_2 Fi_3 Fi-1 Fi-2 Fi-3 Fc!1 Fc!2 Fc!3 Fc_1 Fc_2 Fc_3 Fc-1 Fc-2 Fc-3 Fe!1 Fe!2 Fe!3 Fe_1 Fe_2 Fe_3 Fe-1 Fe-2 Fe-3 Fi!12 Fi!13 Fi!21 Fi!23 Fi!31 Fi!32 Fi_12 Fi_13 Fi_21 Fi_23 Fi_31 Fi_32 Fi-12 Fi-13 Fi-21 Fi-23 Fi-31 Fi-32 Fc!12 Fc!13 Fc!21 Fc!23 Fc!31 Fc!32 Fc_12 Fc_13 Fc_21 Fc_23 Fc_31 Fc_32 Fc-12 Fc-13 Fc-21 Fc-23 Fc-31 Fc-32 Fe!12 Fe!13 Fe!21 Fe!23 Fe!31 Fe!32 Fe_12 Fe_13 Fe_21 Fe_23 Fe_31 Fe_32 Fe-12 Fe-13 Fe-21 Fe-23 Fe-31 Fe-32".split(' ');
+
+
+    var colort = ['', '#000', '#ffe', '#0ff']
+    var colormanos = ['#ddd', '#d0f', '#f00', '#f0d']
+
+    function idioma() {
+        $('#titulo').html(leTitulo[selectlengua]);
+        $('#nomenclatura').html(leNomenclatura[selectlengua]);
+        $('#referencias').html(leReferencias[selectlengua]);
+        $('#lenguajes').html(leLenguajes[selectlengua]);
+        $('#porque').html(lePorque[selectlengua]);
+        $('#razones').html(leRazones[selectlengua]);
+        $('#tpasado').html(leTiempo[0][selectlengua].toUpperCase());
+        $('#tpresente').html(leTiempo[1][selectlengua].toUpperCase());
+        $('#tfuturo').html(leTiempo[1][selectlengua].toUpperCase());
+        $('#listados').html(leList[0][selectlengua].toUpperCase());
+        $('#listadoGeneralLink').html(leList[1][selectlengua]);
+    }
+
+  
+
+    function gup(name, url) {
+        if (!url) { url = location.href; }
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regexS = "[\\?&]" + name + "=([^&#]*)";
+        var regex = new RegExp(regexS);
+        var results = regex.exec(url);
+
+        return results == null ? null : results[1];
+        //gup('q', 'hxxp://example.com/?q=abc')
+    }
+
+
+
+    $(document).ready(function() {
+
+        var getlan = gup('lan')
+        if (getlan != null) {
+            switch (getlan) {
+                case 'en':
+                    selectlengua = 1
+                    break;
+                case 'es':
+                    selectlengua = 0
+                    break;
+                default:
+                    selectlengua = 1
+                    break;
+            }
+
+        } else {
+
+            //selectlengua=1
+            location.href = "makelist.html?lan=en"
+            //window.location.replace("index.hml?lan=en")
+        }
+        //idioma()
+ $('#title').html(leTitulo[selectlengua])
+        $('#nomenclatura').html(leNomenclatura[selectlengua])
+
+        var combinaE = [
+            [1, 2],
+            [1, 3],
+            [2, 1],
+            [2, 3],
+            [3, 1],
+            [3, 2]
+        ]
+
+        var ee1 = '1 2 3'.split(' ')
+        var ee2 = '12 13 21 23 31 32'.split(' ')
+        var ice = 'i! i_ i- c! c_ c- e! e_ e-'.split(' ')
+        var tt = 'P . F O'.split(' ')
+        var oo = 'o'
+
+        var p = tt[0]
+        var t = ''
+        var O = []
+        var cont = 1
+        var tx = '',
+            analisis = ''
+
+        for (var a = 0; a < ice.length; a++) {
+            for (var b = 0; b < ee1.length; b++) {
+                tx = p + ice[a] + '' + ee1[b]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('-' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+
+            }
+        }
+        for (var a = 0; a < ice.length; a++) {
+            for (var c = 0; c < ee2.length; c++) {
+                tx = p + ice[a] + '' + ee2[c]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('-' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+
+            }
+        }
+        //var t0='var Pasado = "'+ O.join(' ')+'".split('+"' '"+');'
+        var t0 = '<br><b>' + leTiempo[0][selectlengua].toUpperCase() + '</b><br>' + O.join('<br>') + ''
+        //alert(tx)
+
+
+        p = tt[1]
+        t = ''
+        O = []
+        cont = 1
+        for (var a = 0; a < ice.length; a++) {
+            for (var b = 0; b < ee1.length; b++) {
+                tx = p + ice[a] + '' + ee1[b]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                O.push('' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+            }
+        }
+        for (var a = 0; a < ice.length; a++) {
+            for (var c = 0; c < ee2.length; c++) {
+                tx = p + ice[a] + '' + ee2[c]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+
+            }
+        }
+        //var t1='var Presente = "'+ O.join(' ')+'".split('+"' '"+');'
+        var t1 = '<br><b>' + leTiempo[1][selectlengua].toUpperCase() + '</b><br>' + O.join('<br>') + ''
+
+
+        p = tt[2]
+        t = ''
+        O = []
+        cont = 1
+
+        for (var a = 0; a < ice.length; a++) {
+            for (var b = 0; b < ee1.length; b++) {
+                tx = p + ice[a] + '' + ee1[b]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('+' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+            }
+        }
+
+        for (var a = 0; a < ice.length; a++) {
+            for (var c = 0; c < ee2.length; c++) {
+                tx = p + ice[a] + '' + ee2[c]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('+' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+            }
+        }
+        var t2 = '<br><b>' + leTiempo[2][selectlengua].toUpperCase() + '</b><br>' + O.join('<br>') + ''
+
+        $('#listadoGeneral').html(t0 + '\n' + t1 + '\n' + t2);
+
+
+    });
+
+    function analiza(texto, numero) {
+        var primera = texto.substring(0, 1)
+        var id1 = ''
+        var verbo = ''
+        var tiempo = leTiempo[0][0]
+
+        var colortn = 0;
+        if (primera == 'P') {
+            tiempo = leTiempo[0][0]
+            id1 = leTiempo[0][selectlengua];
+            verbo = leVerbo.pasado[selectlengua]
+            colortn = 1;
+
+        }
+        if (primera == '.') {
+            tiempo = leTiempo[1][0]
+            id1 = leTiempo[1][selectlengua];
+            verbo = leVerbo.presente[selectlengua]
+            colortn = 2;
+        }
+        if (primera == 'F') {
+            tiempo = leTiempo[2][0]
+            id1 = leTiempo[2][selectlengua];
+            verbo = leVerbo.futuro[selectlengua]
+            colortn = 3;
+        }
+        var id2 = ''
+        var segunda = texto.substring(1, 2)
+        if (segunda == 'i') { id2 = leEntorno[0].prop[selectlengua]; }
+        if (segunda == 'c') { id2 = leEntorno[1].prop[selectlengua]; }
+        if (segunda == 'e') { id2 = leEntorno[2].prop[selectlengua]; }
+        var id3 = ''
+        var tercera = texto.substring(2, 3)
+        if (tercera == '!') { id3 = leDistancia[0].prop[selectlengua]; }
+        if (tercera == '_') { id3 = leDistancia[1].prop[selectlengua]; }
+        if (tercera == '-') { id3 = leDistancia[2].prop[selectlengua]; }
+        var colorm = 0;
+        var noperador = 0;
+        if (segunda == 'c' && tercera == '!') {
+            noperador = 1
+            if (colortn == 1) { colorm = 1; }
+            if (colortn == 2) { colorm = 2; }
+            if (colortn == 3) { colorm = 3; }
+        }
+
+        var quintaosexta = texto.substring(3)
+        var sexta = ''
+        var quinta = ''
+        var id5 = ''
+        var id6 = ''
+
+        quinta = quintaosexta.substring(0, 1)
+        if (quinta == ('1')) { id5 = leNivel[0].prop[selectlengua]; }
+        if (quinta == ('2')) { id5 = leNivel[1].prop[selectlengua]; }
+        if (quinta == ('3')) { id5 = leNivel[2].prop[selectlengua]; }
+
+        if (quintaosexta.length == 2) {
+            sexta = quintaosexta.substring(1, 2)
+            id6 = ''
+            if (sexta == ('1')) { id6 = leNivel[0].prop[selectlengua]; }
+            if (sexta == ('2')) { id6 = leNivel[1].prop[selectlengua]; }
+            if (sexta == ('3')) { id6 = leNivel[2].prop[selectlengua]; }
+            //id6=sexta+'fff'
+        }
+        var n = quintaosexta.length
+        var opera = verbo
+        var hasta = ''
+        if (n == 2) { opera += lePrepos[selectlengua][0];
+            hasta = lePrepos[selectlengua][1] }
+        var siglas = texto.split('')
+
+        //var comp=texto+' = '+siglas.join('&nbsp;&nbsp;')+'&nbsp;&nbsp;&nbsp;&nbsp;' +id2+' '+ id3+' ' + id1 +' '+ opera + id5 +' ' +hasta+ id6 +' '
+
+        var comp = id2.capitalize() + ' ' + id3 + ' ' + id1 + ' ' + opera + id5 + ' ' + hasta + id6 + ' '
+
+       return { ejemplotitulo: leEjemplo[selectlengua], oejemplotitulo: leOperativo[selectlengua], cnumero: numero, symbol: texto, textsymbol: comp, coperador: noperador, eceldacss: colormanos[colorm], celdacss: colort[colortn] }
+    }
+
+    String.prototype.capitalize = function() {
+        return this.charAt(0).toUpperCase() + this.slice(1)
+    }
+    </script>
+</body>
+
+</html>
