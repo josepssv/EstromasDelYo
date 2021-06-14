@@ -1,0 +1,733 @@
+Nomenclatura: 1: físico; 2:psíquico; 3:lógico; i: interno; c:contorno; e:entorno; !:propio; _:próximo; -:lejano; P:pasado; .:presente; F:futuro;
+
+PASADO
+-1 Pi!1 Interno propio pasado que operó físico
+      Hice la digestión
+
+-2 Pi!2 Interno propio pasado que operó psíquico
+      Estuve más relajado
+
+-3 Pi!3 Interno propio pasado que operó lógico
+      Y entonces decidí salir a la calle
+
+-4 Pi_1 Interno cercano pasado que operó físico
+      Un familiar tuvo fiebre
+
+-5 Pi_2 Interno cercano pasado que operó psíquico
+      Un amigo tuvo un dolor de cabeza
+
+-6 Pi_3 Interno cercano pasado que operó lógico
+      Un conocido se decidió a comprar aquel un coche
+
+-7 Pi-1 Interno lejano pasado que operó físico
+      En un país vecino ha hubo una intoxicación alimentaria
+
+-8 Pi-2 Interno lejano pasado que operó psíquico
+      En un país lejano fue un éxito esa canción
+
+-9 Pi-3 Interno lejano pasado que operó lógico
+      En el parlamento de un país lejano decidieron el calendario electoral
+
+-10 Pc!1 Contorno propio pasado que operó físico
+      Estuve haciendo una comida
+
+-11 Pc!2 Contorno propio pasado que operó psíquico
+      Me hizo mucha gracia tu chiste
+
+-12 Pc!3 Contorno propio pasado que operó lógico
+      Descubrí que tenía más posibilidades de las que creía
+
+-13 Pc_1 Contorno cercano pasado que operó físico
+      Un familiar recogió la fruta
+
+-14 Pc_2 Contorno cercano pasado que operó psíquico
+      Una amiga se alegró por la invitación
+
+-15 Pc_3 Contorno cercano pasado que operó lógico
+      Un familiar habló sobre alimentación saludable
+
+-16 Pc-1 Contorno lejano pasado que operó físico
+      En un país lejano hubo un terremoto
+
+-17 Pc-2 Contorno lejano pasado que operó psíquico
+      En el parlamento de un lejano país oyeron las quejas de los afectados
+
+-18 Pc-3 Contorno lejano pasado que operó lógico
+      En el país vecino se discutió sobre la reforma de la ley
+
+-19 Pe!1 Entorno propio pasado que operó físico
+      En mi casa hizo mucho calor
+
+-20 Pe!2 Entorno propio pasado que operó psíquico
+      Un familiar estuvo enfadado por no haber podido cobrar su salario
+
+-21 Pe!3 Entorno propio pasado que operó lógico
+      En mi ayuntamiento se discutió una ley sobre maltrato animal
+
+-22 Pe_1 Entorno cercano pasado que operó físico
+      En mi país aumentaron las zonas desérticas
+
+-23 Pe_2 Entorno cercano pasado que operó psíquico
+      En mi país fueron un éxito las canciones de un grupo musical
+
+-24 Pe_3 Entorno cercano pasado que operó lógico
+      En el parlamento de mi país se votó sobre la jornada laboral
+
+-25 Pe-1 Entorno lejano pasado que operó físico
+      En un país lejano hubo una fuerte tormenta
+
+-26 Pe-2 Entorno lejano pasado que operó psíquico
+      En un país lejano celebraron la fiesta nacional
+
+-27 Pe-3 Entorno lejano pasado que operó lógico
+      En el parlamento de un país lejano discutieron sobre las inversiones públicas
+
+-28 Pi!12 Interno propio pasado que operó de físico a psíquico
+      Me sentó muy bien la comida
+
+-29 Pi!13 Interno propio pasado que operó de físico a lógico
+      Observé que había luz en el interior de la casa
+
+-30 Pi!21 Interno propio pasado que operó de psíquico a físico
+      Mejoré bastante desde que tuve vuestra compañía
+
+-31 Pi!23 Interno propio pasado que operó de psíquico a lógico
+      Me gustó mucho la película, pues descubrí que yo también podía hacerlo
+
+-32 Pi!31 Interno propio pasado que operó de lógico a físico
+      Tuve que darme la vuelta, pues el sol me cegaba
+
+-33 Pi!32 Interno propio pasado que operó de lógico a psíquico
+      Estuve riendo de ver una solución tan fácil
+
+-34 Pi_12 Interno cercano pasado que operó de físico a psíquico
+      Mi familia salió contenta de la comida
+
+-35 Pi_13 Interno cercano pasado que operó de físico a lógico
+      Mis amigos escucharon un ruido y pararon
+
+-36 Pi_21 Interno cercano pasado que operó de psíquico a físico
+      Unos amigos quedaron afónicos de tanto cantar
+
+-37 Pi_23 Interno cercano pasado que operó de psíquico a lógico
+      Algunos concejales de mi ayuntamiento prefirieron no asistir a la sesión por haber tenido presión de un grupo ciudadano
+
+-38 Pi_31 Interno cercano pasado que operó de lógico a físico
+      Un familiar tuvo que saltar al darse cuenta del agujero
+
+-39 Pi_32 Interno cercano pasado que operó de lógico a psíquico
+      Un vecino estuvo seleccionando la ropa de la temporada
+
+-40 Pi-12 Interno lejano pasado que operó de físico a psíquico
+      En una ciudad lejana los participantes en una marcha se cansaron
+
+-41 Pi-13 Interno lejano pasado que operó de físico a lógico
+      En una ciudad lejana los afectados fueron al hospital para revisión médica
+
+-42 Pi-21 Interno lejano pasado que operó de psíquico a físico
+      En un país lejano el sedentarismo disminuyó el promedio de vida
+
+-43 Pi-23 Interno lejano pasado que operó de psíquico a lógico
+      En un país lejano el video se convirtió en un éxito viral
+
+-44 Pi-31 Interno lejano pasado que operó de lógico a físico
+      En una ciudad lejana sus habitantes hicieron ejercicio en las plazas públicas
+
+-45 Pi-32 Interno lejano pasado que operó de lógico a psíquico
+      En el país vecino celebraron la fiesta nacional de un modo diferente
+
+-46 Pc!12 Contorno propio pasado que operó de físico a psíquico
+      Hacer ejercicio por las mañanas me hizo estar más positivo durante todo el día
+
+-47 Pc!13 Contorno propio pasado que operó de físico a lógico
+      Decidí cambiar la orientación de la mesa, pues faltaba luz
+
+-48 Pc!21 Contorno propio pasado que operó de psíquico a físico
+      Estuvimos riendo toda la tarde
+
+-49 Pc!23 Contorno propio pasado que operó de psíquico a lógico
+      Descubrí que las penas con los amigos son menos penas
+
+-50 Pc!31 Contorno propio pasado que operó de lógico a físico
+      Hablé con ellos sobre la superpoblación humana
+
+-51 Pc!32 Contorno propio pasado que operó de lógico a psíquico
+      Me cambió el ánimo cuando lo terminé
+
+-52 Pc_12 Contorno cercano pasado que operó de físico a psíquico
+      Aquella caricia le demostró que aún la amaba
+
+-53 Pc_13 Contorno cercano pasado que operó de físico a lógico
+      El alumno aprendió con un experimento de física
+
+-54 Pc_21 Contorno cercano pasado que operó de psíquico a físico
+      Un primo se desperezó
+
+-55 Pc_23 Contorno cercano pasado que operó de psíquico a lógico
+      En mi región los camareros decidieron ir a la huelga
+
+-56 Pc_31 Contorno cercano pasado que operó de lógico a físico
+      En mi país grupos de vecinos mejoraron los espacios públicos de sus barrios
+
+-57 Pc_32 Contorno cercano pasado que operó de lógico a psíquico
+      En mi región un grupo de ciudadanos informaron a las familias sobre el acceso a una vivienda digna
+
+-58 Pc-12 Contorno lejano pasado que operó de físico a psíquico
+      En la capital de un país lejano estrenaron un nuevo musical
+
+-59 Pc-13 Contorno lejano pasado que operó de físico a lógico
+      Los habitantes de una ciudad lejana decidieron actualizar la red de saneamiento
+
+-60 Pc-21 Contorno lejano pasado que operó de psíquico a físico
+      En un país lejano los habitantes de un pueblo construyeron un tipo de calefacción geotérmica
+
+-61 Pc-23 Contorno lejano pasado que operó de psíquico a lógico
+      En un pais lejano ofrecieron viviendas a unas familias afectadas por un volcán
+
+-62 Pc-31 Contorno lejano pasado que operó de lógico a físico
+      En un país lejano un grupo de pescadores trabajó por preservar de plásticos sus costas
+
+-63 Pc-32 Contorno lejano pasado que operó de lógico a psíquico
+      Un famoso grupo musical actuó en un país lejano
+
+-64 Pe!12 Entorno propio pasado que operó de físico a psíquico
+      A un familiar le afectaron mucho aquellos días de lluvia
+
+-65 Pe!13 Entorno propio pasado que operó de físico a lógico
+      Un pariente estudió el comportamiento de los gatos
+
+-66 Pe!21 Entorno propio pasado que operó de psíquico a físico
+      Se hacía aire con el abanico
+
+-67 Pe!23 Entorno propio pasado que operó de psíquico a lógico
+      Un amigo encontró un lugar cómodo para sentarse
+
+-68 Pe!31 Entorno propio pasado que operó de lógico a físico
+      Un familiar construyó una maqueta
+
+-69 Pe!32 Entorno propio pasado que operó de lógico a psíquico
+      Un familiar estuvo dibujando
+
+-70 Pe_12 Entorno cercano pasado que operó de físico a psíquico
+      En este país las buenas temperaturas de la primavera favorecieron las actividades al aire libre
+
+-71 Pe_13 Entorno cercano pasado que operó de físico a lógico
+      Las decisiones del gobierno de la nación estuvieron motivadas por las altas temperaturas
+
+-72 Pe_21 Entorno cercano pasado que operó de psíquico a físico
+      En una ciudad cercana los asistentes a un festival dejaron mucha basura en el entorno
+
+-73 Pe_23 Entorno cercano pasado que operó de psíquico a lógico
+      En mi país tuvo éxito un documental sobre la biografía de un científico
+
+-74 Pe_31 Entorno cercano pasado que operó de lógico a físico
+      En mi país se construyó una presa
+
+-75 Pe_32 Entorno cercano pasado que operó de lógico a psíquico
+      En mi país se hizo una campaña para ampliar la asistencia sanitaria
+
+-76 Pe-12 Entorno lejano pasado que operó de físico a psíquico
+      En un país lejano las buenas temperaturas de la primavera favorecieron las actividades al aire libre
+
+-77 Pe-13 Entorno lejano pasado que operó de físico a lógico
+      En un país lejano están estudiaron el movimiento de las olas
+
+-78 Pe-21 Entorno lejano pasado que operó de psíquico a físico
+      En una ciudad lejana los asistentes a un festival dejaron mucha basura en el entorno
+
+-79 Pe-23 Entorno lejano pasado que operó de psíquico a lógico
+      En un país lejano investigaron sobre el comportamiento animal
+
+-80 Pe-31 Entorno lejano pasado que operó de lógico a físico
+      Construyeron un túnel en un país lejano
+
+-81 Pe-32 Entorno lejano pasado que operó de lógico a psíquico
+      En un país lejano hicieron una campaña publicitaria para promocionar una canción
+
+PRESENTE
+1 .i!1 Interno propio presente que opera físico
+      Estoy realizando la digestión
+
+2 .i!2 Interno propio presente que opera psíquico
+      Ahora estoy relajado
+
+3 .i!3 Interno propio presente que opera lógico
+      Estoy decidiendo salir a la calle
+
+4 .i_1 Interno cercano presente que opera físico
+      Un familiar tiene fiebre
+
+5 .i_2 Interno cercano presente que opera psíquico
+      Un amigo tiene un dolor de cabeza
+
+6 .i_3 Interno cercano presente que opera lógico
+      Un conocido está pensando comprar un coche
+
+7 .i-1 Interno lejano presente que opera físico
+      En un país vecino ha habido una intoxicación alimentaria
+
+8 .i-2 Interno lejano presente que opera psíquico
+      En un país lejano está siendo un éxito esa canción
+
+9 .i-3 Interno lejano presente que opera lógico
+      En el parlamento de un país lejano deciden el calendario electoral
+
+10 .c!1 Contorno propio presente que opera físico
+      Estoy haciendo una maqueta
+
+11 .c!2 Contorno propio presente que opera psíquico
+      Me está haciendo gracia tu chiste
+
+12 .c!3 Contorno propio presente que opera lógico
+      Estoy descubriendo que tengo más posibilidades de las que creía
+
+13 .c_1 Contorno cercano presente que opera físico
+      Un familiar está cambiando la rueda del coche
+
+14 .c_2 Contorno cercano presente que opera psíquico
+      Una amiga se ríe
+
+15 .c_3 Contorno cercano presente que opera lógico
+      Un familiar está hablando
+
+16 .c-1 Contorno lejano presente que opera físico
+      En un país lejano hay un terremoto
+
+17 .c-2 Contorno lejano presente que opera psíquico
+      En el parlamento de un lejano país oyen las quejas de los afectados
+
+18 .c-3 Contorno lejano presente que opera lógico
+      En el país vecino discute sobre la reforma de la ley
+
+19 .e!1 Entorno propio presente que opera físico
+      Hace mucho calor
+
+20 .e!2 Entorno propio presente que opera psíquico
+      Un familiar está enfadado por no haber podido cobrar su salario
+
+21 .e!3 Entorno propio presente que opera lógico
+      En mi ayuntamiento se está discutiendo una ley sobre maltrato animal
+
+22 .e_1 Entorno cercano presente que opera físico
+      En mi país aumentan las zonas desérticas
+
+23 .e_2 Entorno cercano presente que opera psíquico
+      En mi país son un éxito las canciones de un grupo musical
+
+24 .e_3 Entorno cercano presente que opera lógico
+      En el parlamento de mi país deciden sobre la jornada laboral
+
+25 .e-1 Entorno lejano presente que opera físico
+      En un país lejano hay una fuerte tormenta
+
+26 .e-2 Entorno lejano presente que opera psíquico
+      En un país lejano se festeja el día de la independencia
+
+27 .e-3 Entorno lejano presente que opera lógico
+      En el parlamento de un país lejano discuten sobre las inversiones públicas
+
+28 .i!12 Interno propio presente que opera de físico a psíquico
+      La comida me está sentando muy bien
+
+29 .i!13 Interno propio presente que opera de físico a lógico
+      Observo que hay luz en el interior de esa casa
+
+30 .i!21 Interno propio presente que opera de psíquico a físico
+      He mejorado bastante desde que tengo vuestra compañía
+
+31 .i!23 Interno propio presente que opera de psíquico a lógico
+      Me gusta mucho la película, pues descubro que yo también puedo hacerlo
+
+32 .i!31 Interno propio presente que opera de lógico a físico
+      Estoy dándome la vuelta, pues el sol me ciega
+
+33 .i!32 Interno propio presente que opera de lógico a psíquico
+      Me estoy riendo de ver tan fácil la solución
+
+34 .i_12 Interno cercano presente que opera de físico a psíquico
+      Mis familiares están contentos de la buena comida de la que han disfrutado
+
+35 .i_13 Interno cercano presente que opera de físico a lógico
+      Al escuchar un ruido mis amigos han parado
+
+36 .i_21 Interno cercano presente que opera de psíquico a físico
+      Unos amigos tienen afonía de tanto gritar
+
+37 .i_23 Interno cercano presente que opera de psíquico a lógico
+      Algunos concejales de mi ayuntamiento prefieren no asistir a la sesión por tener presión de un grupo ciudadano
+
+38 .i_31 Interno cercano presente que opera de lógico a físico
+      Un familiar tiene que saltar al darse cuenta del agujero
+
+39 .i_32 Interno cercano presente que opera de lógico a psíquico
+      Una vecina está seleccionando la ropa de la temporada
+
+40 .i-12 Interno lejano presente que opera de físico a psíquico
+      En una ciudad lejana los participantes en una marcha están cansados
+
+41 .i-13 Interno lejano presente que opera de físico a lógico
+      En una ciudad lejana los afectados van al hospital para revisión médica
+
+42 .i-21 Interno lejano presente que opera de psíquico a físico
+      En un país lejano el sedentarismo está disminuyendo el promedio de vida
+
+43 .i-23 Interno lejano presente que opera de psíquico a lógico
+      En un país lejano el video se ha convertido en exito viral
+
+44 .i-31 Interno lejano presente que opera de lógico a físico
+      En una ciudad lejana sus habitantes hacen ejercicio en las plazas públicas
+
+45 .i-32 Interno lejano presente que opera de lógico a psíquico
+      En el país vecino se celebra la fiesta de año nuevo de un modo diferente
+
+46 .c!12 Contorno propio presente que opera de físico a psíquico
+      Hacer ejercicio por las mañanas me hace estar más positivo todo el día
+
+47 .c!13 Contorno propio presente que opera de físico a lógico
+      Estoy decidiendo cambiar la orientación de la mesa, pues me falta luz
+
+48 .c!21 Contorno propio presente que opera de psíquico a físico
+      Te estoy contando un chiste que oí ayer
+
+49 .c!23 Contorno propio presente que opera de psíquico a lógico
+      Es muy positivo para mí reirme con los amigos
+
+50 .c!31 Contorno propio presente que opera de lógico a físico
+      Charlo contigo sobre la superpoblación humana
+
+51 .c!32 Contorno propio presente que opera de lógico a psíquico
+      He descubierto la solución y me ha dado alegría
+
+52 .c_12 Contorno cercano presente que opera de físico a psíquico
+      Un desconocido está molestando en un concierto
+
+53 .c_13 Contorno cercano presente que opera de físico a lógico
+      Un familiar aprende con un experimento de física
+
+54 .c_21 Contorno cercano presente que opera de psíquico a físico
+      Un familiar se despereza
+
+55 .c_23 Contorno cercano presente que opera de psíquico a lógico
+      En mi región los camareros están decidiendo ir a la huelga
+
+56 .c_31 Contorno cercano presente que opera de lógico a físico
+      En mi país grupos de vecinos están mejorando los espacios públicos de sus barrios
+
+57 .c_32 Contorno cercano presente que opera de lógico a psíquico
+      En mi región un grupo de ciudadanos informa a las familias sobre el acceso a una vivienda digna
+
+58 .c-12 Contorno lejano presente que opera de físico a psíquico
+      En la capital de un país lejano están estrenando un nuevo musical
+
+59 .c-13 Contorno lejano presente que opera de físico a lógico
+      Los habitantes de una ciudad lejana deciden actualizar la red de saneamiento
+
+60 .c-21 Contorno lejano presente que opera de psíquico a físico
+      En un país lejano los habitantes de un pueblo han construido un tipo de calefacción geotérmica
+
+61 .c-23 Contorno lejano presente que opera de psíquico a lógico
+      En un pais lejano ofrecen viviendas a unas familias afectadas por un volcán
+
+62 .c-31 Contorno lejano presente que opera de lógico a físico
+      En un país lejano un grupo de pescadores trabaja por preservar de plásticos sus costas
+
+63 .c-32 Contorno lejano presente que opera de lógico a psíquico
+      Un famoso grupo musical está actuando en un país lejano
+
+64 .e!12 Entorno propio presente que opera de físico a psíquico
+      A un familiar le afectan mucho los días nublados
+
+65 .e!13 Entorno propio presente que opera de físico a lógico
+      Las decisiones de mi ayuntamiento están condicionadas por las altas temperaturas
+
+66 .e!21 Entorno propio presente que opera de psíquico a físico
+      Un pariente se abanica por el calor
+
+67 .e!23 Entorno propio presente que opera de psíquico a lógico
+      Un amigo encuentra un lugar cómodo para sentarse
+
+68 .e!31 Entorno propio presente que opera de lógico a físico
+      Un pariente conduce el coche
+
+69 .e!32 Entorno propio presente que opera de lógico a psíquico
+      Un familiar está dibujando
+
+70 .e_12 Entorno cercano presente que opera de físico a psíquico
+      En este país las buenas temperaturas de la primavera están favoreciendo las actividades al aire libre
+
+71 .e_13 Entorno cercano presente que opera de físico a lógico
+      Las decisiones del gobierno de la nación están motivadas por las altas temperaturas
+
+72 .e_21 Entorno cercano presente que opera de psíquico a físico
+      En una ciudad cercana los asistentes a un festival están dejando mucha basura en el entorno
+
+73 .e_23 Entorno cercano presente que opera de psíquico a lógico
+      En mi país está teniendo éxito un documental sobre la biografía de un científico
+
+74 .e_31 Entorno cercano presente que opera de lógico a físico
+      En mi país se está construyendo una presa
+
+75 .e_32 Entorno cercano presente que opera de lógico a psíquico
+      En mi país se está haciendo una campaña para ampliar la asistencia sanitaria
+
+76 .e-12 Entorno lejano presente que opera de físico a psíquico
+      En un país lejano las buenas temperaturas de la primavera están favoreciendo las actividades al aire libre
+
+77 .e-13 Entorno lejano presente que opera de físico a lógico
+      En un país lejano están experimentando con túneles de viento
+
+78 .e-21 Entorno lejano presente que opera de psíquico a físico
+      En una ciudad lejana los asistentes a un festival están dejando mucha basura en el entorno
+
+79 .e-23 Entorno lejano presente que opera de psíquico a lógico
+      En un país lejano está teniendo éxito un documental sobre la biografía de un científico
+
+80 .e-31 Entorno lejano presente que opera de lógico a físico
+      Están construyendo una presa en un país lejano
+
+81 .e-32 Entorno lejano presente que opera de lógico a psíquico
+      En un país lejano se está haciendo una campaña publicitaria para promocionar una canción
+
+FUTURO
++1 Fi!1 Interno propio futuro que operará físico
+      Haré la digestión
+
++2 Fi!2 Interno propio futuro que operará psíquico
+      Me sentiré más tranquilo
+
++3 Fi!3 Interno propio futuro que operará lógico
+      Y eso me condicionará para regresar a casa
+
++4 Fi_1 Interno cercano futuro que operará físico
+      Un familiar tendrá fiebre
+
++5 Fi_2 Interno cercano futuro que operará psíquico
+      A mi amigo le dolerá la cabeza
+
++6 Fi_3 Interno cercano futuro que operará lógico
+      Un conocido se comprará un coche
+
++7 Fi-1 Interno lejano futuro que operará físico
+      En ese país vecino habrá una intoxicación alimentaria
+
++8 Fi-2 Interno lejano futuro que operará psíquico
+      En un país vecino será un éxito esa canción
+
++9 Fi-3 Interno lejano futuro que operará lógico
+      En el parlamento de un país lejano decidirán sobre una ley de amnistía
+
++10 Fc!1 Contorno propio futuro que operará físico
+      Uniré las dos partes del mueble
+
++11 Fc!2 Contorno propio futuro que operará psíquico
+      Iré a ver la película
+
++12 Fc!3 Contorno propio futuro que operará lógico
+      Tendré que saltar para continuar
+
++13 Fc_1 Contorno cercano futuro que operará físico
+      Un familiar pondrá la mesa
+
++14 Fc_2 Contorno cercano futuro que operará psíquico
+      Los amigos se alegrarán en esa fiesta
+
++15 Fc_3 Contorno cercano futuro que operará lógico
+      Mi hermana hablará con su jefe
+
++16 Fc-1 Contorno lejano futuro que operará físico
+      En un país lejano se hará una repoblación forestal
+
++17 Fc-2 Contorno lejano futuro que operará psíquico
+      El el parlamento de un lejano país oirán las quejas de los afectados
+
++18 Fc-3 Contorno lejano futuro que operará lógico
+      En el país vecino se discutirá sobre la reforma de la ley
+
++19 Fe!1 Entorno propio futuro que operará físico
+      Mañana hará aquí mucho calor
+
++20 Fe!2 Entorno propio futuro que operará psíquico
+      Un familiar se aburrirá esperando en la cola
+
++21 Fe!3 Entorno propio futuro que operará lógico
+      En mi ayuntamiento se discutirá una ley sobre maltrato animal
+
++22 Fe_1 Entorno cercano futuro que operará físico
+      En mi país aumentarán las zonas desérticas
+
++23 Fe_2 Entorno cercano futuro que operará psíquico
+      En mi país se celebrará el triunfo
+
++24 Fe_3 Entorno cercano futuro que operará lógico
+      En el parlamento de mi país se votará sobre la jornada laboral
+
++25 Fe-1 Entorno lejano futuro que operará físico
+      En un país lejano formará una fuerte depresión atmosférica
+
++26 Fe-2 Entorno lejano futuro que operará psíquico
+      En un país lejano celebrarán la fiesta nacional
+
++27 Fe-3 Entorno lejano futuro que operará lógico
+      En el parlamento de un país lejano discutirán sobre las inversiones públicas
+
++28 Fi!12 Interno propio futuro que operará de físico a psíquico
+      Me sentará muy bien comer
+
++29 Fi!13 Interno propio futuro que operará de físico a lógico
+      Observaré si hay luz en el interior de la casa
+
++30 Fi!21 Interno propio futuro que operará de psíquico a físico
+      Mejoraré bastante si estoy con vuestra compañía
+
++31 Fi!23 Interno propio futuro que operará de psíquico a lógico
+      Me gustará la película, pues descubriré que yo también podré hacerlo
+
++32 Fi!31 Interno propio futuro que operará de lógico a físico
+      Me daré la vuelta, pues el sol me cegará
+
++33 Fi!32 Interno propio futuro que operará de lógico a psíquico
+      Reiré de comprobar la sencillez de la solución
+
++34 Fi_12 Interno cercano futuro que operará de físico a psíquico
+      Mi familia disfrutará de la comida
+
++35 Fi_13 Interno cercano futuro que operará de físico a lógico
+      Mis amigos escucharán un ruido y pararán
+
++36 Fi_21 Interno cercano futuro que operará de psíquico a físico
+      Mis amigos quedarán afónicos de tanto gritar
+
++37 Fi_23 Interno cercano futuro que operará de psíquico a lógico
+      Algunos concejales de mi ayuntamiento preferirán no asistir a la sesión por la presión que tendrán de un grupo ciudadano
+
++38 Fi_31 Interno cercano futuro que operará de lógico a físico
+      Mi primo tendrá que saltar al darse cuenta del agujero
+
++39 Fi_32 Interno cercano futuro que operará de lógico a psíquico
+      El vecino seleccionará la ropa de la temporada
+
++40 Fi-12 Interno lejano futuro que operará de físico a psíquico
+      En una ciudad lejana los participantes en la marcha se cansarán
+
++41 Fi-13 Interno lejano futuro que operará de físico a lógico
+      En una ciudad lejana los afectados irán al hospital para revisión médica
+
++42 Fi-21 Interno lejano futuro que operará de psíquico a físico
+      En un país lejano el sedentarismo disminuirá el promedio de vida
+
++43 Fi-23 Interno lejano futuro que operará de psíquico a lógico
+      En un país lejano los asistentes saldrán convencidos del triunfo
+
++44 Fi-31 Interno lejano futuro que operará de lógico a físico
+      En una ciudad lejana sus habitantes harán ejercicio en las plazas públicas
+
++45 Fi-32 Interno lejano futuro que operará de lógico a psíquico
+      En el país vecino celebrarán la fiesta de un modo diferente
+
++46 Fc!12 Contorno propio futuro que operará de físico a psíquico
+      Hacer ejercicio por las mañanas me hará estar más positivo durante todo el día
+
++47 Fc!13 Contorno propio futuro que operará de físico a lógico
+      Cambiaré la orientación de la mesa, pues falta luz
+
++48 Fc!21 Contorno propio futuro que operará de psíquico a físico
+      Hablaré con ellos de nuestros problemas
+
++49 Fc!23 Contorno propio futuro que operará de psíquico a lógico
+      Confirmaré que mis preocupaciones no tenían sentido
+
++50 Fc!31 Contorno propio futuro que operará de lógico a físico
+      Hablaré contigo de los arreglos que quedan por hacer
+
++51 Fc!32 Contorno propio futuro que operará de lógico a psíquico
+      Me entristeció la noticia
+
++52 Fc_12 Contorno cercano futuro que operará de físico a psíquico
+      Un desconocido molestará en el concierto
+
++53 Fc_13 Contorno cercano futuro que operará de físico a lógico
+      El alumno aprenderá con ese experimento de física
+
++54 Fc_21 Contorno cercano futuro que operará de psíquico a físico
+      Mi padre bostezó en el cine
+
++55 Fc_23 Contorno cercano futuro que operará de psíquico a lógico
+      En mi región los camareros decidirán ir a la huelga
+
++56 Fc_31 Contorno cercano futuro que operará de lógico a físico
+      En mi país grupos de vecinos mejorarán los espacios públicos de sus barrios
+
++57 Fc_32 Contorno cercano futuro que operará de lógico a psíquico
+      En mi región grupos de ciudadanos informarán a las familias sobre su derecho a una vivienda digna
+
++58 Fc-12 Contorno lejano futuro que operará de físico a psíquico
+      En la capital de un país lejano se estrenará un nuevo musical
+
++59 Fc-13 Contorno lejano futuro que operará de físico a lógico
+      Los habitantes de una ciudad lejana deberían decidir actualizar la red de saneamiento
+
++60 Fc-21 Contorno lejano futuro que operará de psíquico a físico
+      En un país lejano los habitantes de un pueblo construirán un tipo de calefacción geotérmica
+
++61 Fc-23 Contorno lejano futuro que operará de psíquico a lógico
+      En un pais lejano ofrecerán viviendas a unas familias afectadas por un volcán
+
++62 Fc-31 Contorno lejano futuro que operará de lógico a físico
+      En un país lejano un grupo de pescadores limpiará de plásticos sus costas
+
++63 Fc-32 Contorno lejano futuro que operará de lógico a psíquico
+      Un famoso grupo musical actuará en un país lejano
+
++64 Fe!12 Entorno propio futuro que operará de físico a psíquico
+      A un vecino le afectarán mucho esos días lluviosos
+
++65 Fe!13 Entorno propio futuro que operará de físico a lógico
+      Las decisiones de mi ayuntamiento estarán condicionadas por las altas temperaturas
+
++66 Fe!21 Entorno propio futuro que operará de psíquico a físico
+      Los espectadores usarán los abanicos para evitar el calor
+
++67 Fe!23 Entorno propio futuro que operará de psíquico a lógico
+      Un amigo encontrará un lugar cómodo para sentarse
+
++68 Fe!31 Entorno propio futuro que operará de lógico a físico
+      Un familiar construirá una maqueta
+
++69 Fe!32 Entorno propio futuro que operará de lógico a psíquico
+      Un familiar pintará un paisaje
+
++70 Fe_12 Entorno cercano futuro que operará de físico a psíquico
+      En este país las buenas temperaturas de la primavera favorecerán las actividades al aire libre
+
++71 Fe_13 Entorno cercano futuro que operará de físico a lógico
+      Las decisiones del gobierno de la nación estarán condicionadas por las altas temperaturas
+
++72 Fe_21 Entorno cercano futuro que operará de psíquico a físico
+      En una ciudad cercana los asistentes al festival dejarán mucha basura en el entorno
+
++73 Fe_23 Entorno cercano futuro que operará de psíquico a lógico
+      En mi país tendrá éxito un documental sobre la biografía de un científico
+
++74 Fe_31 Entorno cercano futuro que operará de lógico a físico
+      En mi país se construirá una presa
+
++75 Fe_32 Entorno cercano futuro que operará de lógico a psíquico
+      En mi país se hará una campaña para ampliar la asistencia sanitaria
+
++76 Fe-12 Entorno lejano futuro que operará de físico a psíquico
+      En un país lejano las buenas temperaturas de la primavera favorecerán las actividades al aire libre
+
++77 Fe-13 Entorno lejano futuro que operará de físico a lógico
+      En un país lejano estudiarán el movimiento de las olas
+
++78 Fe-21 Entorno lejano futuro que operará de psíquico a físico
+      En una ciudad lejana los asistentes a un festival dejarán mucha basura en el entorno
+
++79 Fe-23 Entorno lejano futuro que operará de psíquico a lógico
+      En un país lejano investigarán sobre el comportamiento animal
+
++80 Fe-31 Entorno lejano futuro que operará de lógico a físico
+      Construirán un túnel en un país lejano
+
++81 Fe-32 Entorno lejano futuro que operará de lógico a psíquico
+      En un país lejano harán una campaña publicitaria para promocionar una canción
