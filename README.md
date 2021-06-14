@@ -22,10 +22,11 @@ Listados
 
   En español
   
-     <a href="https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/es.txt">Listado de estromas</a>
-    Listado de estromas con ejemplos https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/examples_es.txt
+    [Listado de estromas](https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/es.txt) 
+    
+    [Listado de estromas con ejemplos] (https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/examples_es.txt)
     
   En inglés
   
-    Stroma listing https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/en.txt
+    [Stroma listing] (https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/en.txt)
 
