@@ -38,7 +38,13 @@ Impresiones, listados y código sobre estromas del Yo
   Español
   
   https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/examples_es.txt
-       
+  
+  English
+  
+  https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/examples_en.txt
+  
+  
+  
        
        
 
