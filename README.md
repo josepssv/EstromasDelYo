@@ -12,12 +12,13 @@ Impresiones, listados y código sobre estromas del Yo
 
   Español
   
-  https://doi.org/10.5281/zenodo.3336089
+  POSTER https://doi.org/10.5281/zenodo.3336089
+  WEB  https://josepssv.github.io/EstromasDelYo/table/index.html?lan=es
     
   English
   
-  https://doi.org/10.5281/zenodo.3336107
-    
+  POSTER https://doi.org/10.5281/zenodo.3336107
+  WEB https://josepssv.github.io/EstromasDelYo/table/index.html?lan=en  
 
 **Listados de estromas**
 
