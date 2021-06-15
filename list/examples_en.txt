@@ -1,0 +1,495 @@
+STROMATICAL AREAS OF THE SELF PERIODIC TABLE. TWO OPERATIONS, THREE SPACE LAYERS AND A TEMPORARY LAYER
+Nomenclature: 1: physical; 2: psychic; 3: logical; i: internal; c: contour; e: environment; !:own; _:next; -:far; P: past; .:I present; F: future;
+
+
+PAST
+-1 Pi!1 Internal own past who operated physical
+      I did the digestion
+-2 Pi!2 Internal own past who operated psychic
+      I was more relaxed
+-3 Pi!3 Internal own past who operated logic
+      And then I decided to go out
+-4 Pi_1 Internal near past who operated physical
+      A relative had a fever
+-5 Pi_2 Internal near past who operated psychic
+      A friend had a headache
+-6 Pi_3 Internal near past who operated logic
+      An acquaintance decided to buy a car
+-7 Pi-1 Internal far past who operated physical
+      In a neighboring country there was food poisoning
+-8 Pi-2 Internal far past who operated psychic
+      In a distant country that song was a success
+-9 Pi-3 Internal far past who operated logic
+      In the parliament of a distant country they decided the electoral calendar
+-10 Pc!1 Contour own past who operated physical
+      I was making a meal
+-11 Pc!2 Contour own past who operated psychic
+      I was very funny about your joke
+-12 Pc!3 Contour own past who operated logic
+      I found out I had a better chance than I thought
+-13 Pc_1 Contour near past who operated physical
+      A family member picked the fruit
+-14 Pc_2 Contour near past who operated psychic
+      A friend was happy for the invitation
+-15 Pc_3 Contour near past who operated logic
+      A family member talked about healthy eating
+-16 Pc-1 Contour far past who operated physical
+      In a distant country there was an earthquake
+-17 Pc-2 Contour far past who operated psychic
+      In the parliament of a distant country they heard the complaints of those affected
+-18 Pc-3 Contour far past who operated logic
+      In the neighboring country the reform of the law was discussed
+-19 Pe!1 Environment own past who operated physical
+      It was very hot in my house
+-20 Pe!2 Environment own past who operated psychic
+      A relative was angry for not being able to collect his salary
+-21 Pe!3 Environment own past who operated logic
+      A law on animal abuse was discussed in my town hall
+-22 Pe_1 Environment near past who operated physical
+      In my country the desert areas increased
+-23 Pe_2 Environment near past who operated psychic
+      In my country the songs of a musical group were a success
+-24 Pe_3 Environment near past who operated logic
+      In the parliament of my country they voted on the working day
+-25 Pe-1 Environment far past who operated physical
+      In a distant country there was a strong storm
+-26 Pe-2 Environment far past who operated psychic
+      In a distant country they celebrated the national holiday
+-27 Pe-3 Environment far past who operated logic
+      In the parliament of a distant country they discussed public investments
+-28 Pi!12 Internal own past who operated from physical to psychic
+      The food was very good for me
+-29 Pi!13 Internal own past who operated from physical to logic
+      I observed that there was light inside the house
+-30 Pi!21 Internal own past who operated from psychic to physical
+      I have improved a lot since I had your company
+-31 Pi!23 Internal own past who operated from psychic to logic
+      I really liked the movie, because I discovered that I could do it too
+-32 Pi!31 Internal own past who operated from logic to physical
+      I had to turn around, because the sun was blinding me
+-33 Pi!32 Internal own past who operated from logic to psychic
+      I was laughing to see such an easy solution
+-34 Pi_12 Internal near past who operated from physical to psychic
+      My family was happy with the food
+-35 Pi_13 Internal near past who operated from physical to logic
+      My friends heard a noise and stopped
+-36 Pi_21 Internal near past who operated from psychic to physical
+      Some friends were hoarse from singing so much
+-37 Pi_23 Internal near past who operated from psychic to logic
+      Some councilors of my town hall preferred not to attend the session because they had pressure from a citizen group
+-38 Pi_31 Internal near past who operated from logic to physical
+      A family member had to jump when he realized the hole
+-39 Pi_32 Internal near past who operated from logic to psychic
+      A neighbor was selecting the clothes of the season
+-40 Pi-12 Internal far past who operated from physical to psychic
+      In a distant city the participants in a march got tired
+-41 Pi-13 Internal far past who operated from physical to logic
+      In a distant city those affected went to the hospital for a medical check-up
+-42 Pi-21 Internal far past who operated from psychic to physical
+      In a distant country, sedentary lifestyle decreased the average life span
+-43 Pi-23 Internal far past who operated from psychic to logic
+      In a distant country the video became a viral hit
+-44 Pi-31 Internal far past who operated from logic to physical
+      In a distant city its inhabitants exercised in public squares
+-45 Pi-32 Internal far past who operated from logic to psychic
+      In the neighboring country they celebrated the national holiday in a different way
+-46 Pc!12 Contour own past who operated from physical to psychic
+      Exercising in the morning made me feel more positive throughout the day
+-47 Pc!13 Contour own past who operated from physical to logic
+      I decided to change the orientation of the table, as there was no light
+-48 Pc!21 Contour own past who operated from psychic to physical
+      We were laughing all afternoon
+-49 Pc!23 Contour own past who operated from psychic to logic
+      I discovered that the penalties with friends are less penalties
+-50 Pc!31 Contour own past who operated from logic to physical
+      I talked to them about human overpopulation
+-51 Pc!32 Contour own past who operated from logic to psychic
+      My mood changed when I finished it
+-52 Pc_12 Contour near past who operated from physical to psychic
+      That caress showed him that she still loved her
+-53 Pc_13 Contour near past who operated from physical to logic
+      The student learned with a physics experiment
+-54 Pc_21 Contour near past who operated from psychic to physical
+      A cousin stretched
+-55 Pc_23 Contour near past who operated from psychic to logic
+      In my region the waiters decided to go on strike
+-56 Pc_31 Contour near past who operated from logic to physical
+      In my country neighborhood groups improved the public spaces in their neighborhoods
+-57 Pc_32 Contour near past who operated from logic to psychic
+      In my region a group of citizens informed families about access to decent housing
+-58 Pc-12 Contour far past who operated from physical to psychic
+      In the capital of a distant country they premiered a new musical
+-59 Pc-13 Contour far past who operated from physical to logic
+      The inhabitants of a distant city decided to update the sanitation network
+-60 Pc-21 Contour far past who operated from psychic to physical
+      In a distant country the inhabitants of a town built a type of geothermal heating
+-61 Pc-23 Contour far past who operated from psychic to logic
+      In a distant country they offered homes to families affected by a volcano
+-62 Pc-31 Contour far past who operated from logic to physical
+      In a distant country a group of fishermen worked to preserve their coasts from plastics
+-63 Pc-32 Contour far past who operated from logic to psychic
+      A famous musical group performed in a distant country
+-64 Pe!12 Environment own past who operated from physical to psychic
+      A family member was very affected by those rainy days
+-65 Pe!13 Environment own past who operated from physical to logic
+      A relative studied the behavior of cats
+-66 Pe!21 Environment own past who operated from psychic to physical
+      He made air with the fan
+-67 Pe!23 Environment own past who operated from psychic to logic
+      A friend found a comfortable place to sit
+-68 Pe!31 Environment own past who operated from logic to physical
+      A relative built a model
+-69 Pe!32 Environment own past who operated from logic to psychic
+      A relative was drawing
+-70 Pe_12 Environment near past who operated from physical to psychic
+      In this country the good spring temperatures favored outdoor activities
+-71 Pe_13 Environment near past who operated from physical to logic
+      The decisions of the nation’s government were motivated by high temperatures
+-72 Pe_21 Environment near past who operated from psychic to physical
+      In a nearby city, festival goers left a lot of garbage in the environment
+-73 Pe_23 Environment near past who operated from psychic to logic
+      In my country a documentary about the biography of a scientist was successful
+-74 Pe_31 Environment near past who operated from logic to physical
+      In my country a dam was built
+-75 Pe_32 Environment near past who operated from logic to psychic
+      In my country there was a campaign to expand health care
+-76 Pe-12 Environment far past who operated from physical to psychic
+      In a distant country, the good spring temperatures favored outdoor activities
+-77 Pe-13 Environment far past who operated from physical to logic
+      In a distant country they are studying the movement of waves
+-78 Pe-21 Environment far past who operated from psychic to physical
+      In a distant city, festival goers left a lot of garbage in the environment
+-79 Pe-23 Environment far past who operated from psychic to logic
+      In a distant country they investigated animal behavior
+-80 Pe-31 Environment far past who operated from logic to physical
+      They built a tunnel in a distant country
+-81 Pe-32 Environment far past who operated from logic to psychic
+      In a distant country they did an advertising campaign to promote a song
+
+PRESENT
+1 .i!1 Internal own present that operates physical
+      I’m digesting
+2 .i!2 Internal own present that operates psychic
+      Now I’m relaxed
+3 .i!3 Internal own present that operates logic
+      I am deciding to go out
+4 .i_1 Internal near present that operates physical
+      A relative has a fever
+5 .i_2 Internal near present that operates psychic
+      A friend has a headache
+6 .i_3 Internal near present that operates logic
+      An acquaintance is thinking of buying a car
+7 .i-1 Internal far present that operates physical
+      In a neighboring country there has been food poisoning
+8 .i-2 Internal far present that operates psychic
+      In a distant country that song is being a success
+9 .i-3 Internal far present that operates logic
+      In the parliament of a distant country they decide the electoral calendar
+10 .c!1 Contour own present that operates physical
+      I am making a mockup
+11 .c!2 Contour own present that operates psychic
+      I am amused by your joke
+12 .c!3 Contour own present that operates logic
+      I am discovering that I have a better chance than I thought
+13 .c_1 Contour near present that operates physical
+      A family member is changing the car’s wheel
+14 .c_2 Contour near present that operates psychic
+      A friend laughs
+15 .c_3 Contour near present that operates logic
+      A relative is speaking
+16 .c-1 Contour far present that operates physical
+      In a far country there is an earthquake
+17 .c-2 Contour far present that operates psychic
+      In the parliament of a distant country they hear the complaints of those affected
+18 .c-3 Contour far present that operates logic
+      In the neighboring country you discuss the reform of the law
+19 .e!1 Environment own present that operates physical
+      It’s very hot
+20 .e!2 Environment own present that operates psychic
+      A relative is angry that he was unable to collect his salary
+21 .e!3 Environment own present that operates logic
+      A law on animal abuse is being discussed in my town hall
+22 .e_1 Environment near present that operates physical
+      In my country the desert areas are increasing
+23 .e_2 Environment near present that operates psychic
+      In my country the songs of a musical group are a success
+24 .e_3 Environment near present that operates logic
+      In the parliament of my country they decide on the working day
+25 .e-1 Environment far present that operates physical
+      In a distant country there is a strong storm
+26 .e-2 Environment far present that operates psychic
+      In a distant country independence day is celebrated
+27 .e-3 Environment far present that operates logic
+      In the parliament of a distant country they discuss public investments
+28 .i!12 Internal own present that operates from physical to psychic
+      The food is doing me very well
+29 .i!13 Internal own present that operates from physical to logic
+      I observe that there is light in the interior of that house
+30 .i!21 Internal own present that operates from psychic to physical
+      I have improved a lot since I have your company
+31 .i!23 Internal own present that operates from psychic to logic
+      I really like the movie, because I find that I can do it too
+32 .i!31 Internal own present that operates from logic to physical
+      I’m turning around, because the sun blinds me
+33 .i!32 Internal own present that operates from logic to psychic
+      I’m laughing at seeing the solution so easy
+34 .i_12 Internal near present that operates from physical to psychic
+      My relatives are happy with the good food they have enjoyed
+35 .i_13 Internal near present that operates from physical to logic
+      When I heard a noise my friends stopped
+36 .i_21 Internal near present that operates from psychic to physical
+      Some friends have hoarseness from shouting
+37 .i_23 Internal near present that operates from psychic to logic
+      Some councilors of my city council prefer not to attend the session due to pressure from a citizen group
+38 .i_31 Internal near present that operates from logic to physical
+      A relative has to jump when he realizes the hole
+39 .i_32 Internal near present that operates from logic to psychic
+      A neighbor is selecting the clothes of the season
+40 .i-12 Internal far present that operates from physical to psychic
+      In a distant city the participants in a march are tired
+41 .i-13 Internal far present that operates from physical to logic
+      In a distant city those affected go to the hospital for a medical check-up
+42 .i-21 Internal far present that operates from psychic to physical
+      In a distant country, sedentary lifestyle is decreasing the average life span
+43 .i-23 Internal far present that operates from psychic to logic
+      In a distant country the video has become a viral hit
+44 .i-31 Internal far present that operates from logic to physical
+      In a distant city, its inhabitants exercise in public squares
+45 .i-32 Internal far present that operates from logic to psychic
+      In the neighboring country the New Year’s party is celebrated in a different way
+46 .c!12 Contour own present that operates from physical to psychic
+      Exercising in the morning makes me feel more positive all day
+47 .c!13 Contour own present that operates from physical to logic
+      I am deciding to change the orientation of the table, because I lack light
+48 .c!21 Contour own present that operates from psychic to physical
+      I am telling you a joke I heard yesterday
+49 .c!23 Contour own present that operates from psychic to logic
+      It is very positive for me to laugh with friends
+50 .c!31 Contour own present that operates from logic to physical
+      I chat with you about human overpopulation
+51 .c!32 Contour own present that operates from logic to psychic
+      I have discovered the solution and it has given me joy
+52 .c_12 Contour near present that operates from physical to psychic
+      A stranger is disturbing a concert
+53 .c_13 Contour near present that operates from physical to logic
+      A relative learns with a physics experiment
+54 .c_21 Contour near present that operates from psychic to physical
+      A relative stretches
+55 .c_23 Contour near present that operates from psychic to logic
+      In my region the waiters are deciding to go on strike
+56 .c_31 Contour near present that operates from logic to physical
+      In my country neighborhood groups are improving public spaces in their neighborhoods
+57 .c_32 Contour near present that operates from logic to psychic
+      In my region a group of citizens informs families about access to decent housing
+58 .c-12 Contour far present that operates from physical to psychic
+      In the capital of a far away country they are premiering a new musical
+59 .c-13 Contour far present that operates from physical to logic
+      The inhabitants of a distant city decide to update the sanitation network
+60 .c-21 Contour far present that operates from psychic to physical
+      In a distant country the inhabitants of a town have built a type of geothermal heating
+61 .c-23 Contour far present that operates from psychic to logic
+      In a distant country they offer houses to families affected by a volcano
+62 .c-31 Contour far present that operates from logic to physical
+      In a distant country a group of fishermen works to preserve their coasts from plastics
+63 .c-32 Contour far present that operates from logic to psychic
+      A famous musical group is performing in a distant country
+64 .e!12 Environment own present that operates from physical to psychic
+      A family member is very affected by cloudy days
+65 .e!13 Environment own present that operates from physical to logic
+      The decisions of my council are conditioned by high temperatures
+66 .e!21 Environment own present that operates from psychic to physical
+      A relative drives the car
+67 .e!23 Environment own present that operates from psychic to logic
+      A relative fanns himself in the heat
+68 .e!31 Environment own present that operates from logic to physical
+      A friend finds a comfortable place to sit
+69 .e!32 Environment own present that operates from logic to psychic
+      A relative is drawing
+70 .e_12 Environment near present that operates from physical to psychic
+      In this country the good spring temperatures are favoring outdoor activities
+71 .e_13 Environment near present that operates from physical to logic
+      The decisions of the nation’s government are motivated by high temperatures
+72 .e_21 Environment near present that operates from psychic to physical
+      In a nearby city, festival goers are leaving a lot of garbage in the environment
+73 .e_23 Environment near present that operates from psychic to logic
+      In my country a documentary on the biography of a scientist is having success
+74 .e_31 Environment near present that operates from logic to physical
+      In my country a dam is being built
+75 .e_32 Environment near present that operates from logic to psychic
+      In my country a campaign is being carried out to expand health care
+76 .e-12 Environment far present that operates from physical to psychic
+      In a distant country the good spring temperatures are favoring outdoor activities
+77 .e-13 Environment far present that operates from physical to logic
+      In a distant country they are experimenting with wind tunnels
+78 .e-21 Environment far present that operates from psychic to physical
+      In a distant city, festival goers are leaving a lot of garbage in the environment
+79 .e-23 Environment far present that operates from psychic to logic
+      In a distant country a documentary about the biography of a scientist is having success
+80 .e-31 Environment far present that operates from logic to physical
+      They are building a dam in a far away country
+81 .e-32 Environment far present that operates from logic to psychic
+      In a distant country an advertising campaign is being carried out to promote a song
+
+FUTURE
++1 Fi!1 Internal own future which will operate physical
+      I’ll do the digestion
++2 Fi!2 Internal own future which will operate psychic
+      I will feel calmer
++3 Fi!3 Internal own future which will operate logic
+      And that will condition me to return home
++4 Fi_1 Internal near future which will operate physical
+      A relative will have a fever
++5 Fi_2 Internal near future which will operate psychic
+      My friend will have a headache
++6 Fi_3 Internal near future which will operate logic
+      An acquaintance will buy a car
++7 Fi-1 Internal far future which will operate physical
+      In that neighboring country there will be food poisoning
++8 Fi-2 Internal far future which will operate psychic
+      In a neighboring country that song will be a success
++9 Fi-3 Internal far future which will operate logic
+      In the parliament of a distant country they will decide on an amnesty law
++10 Fc!1 Contour own future which will operate physical
+      I will join the two parts of the furniture
++11 Fc!2 Contour own future which will operate psychic
+      I’ll go see the movie
++12 Fc!3 Contour own future which will operate logic
+      I will have to jump to continue
++13 Fc_1 Contour near future which will operate physical
+      A relative will set the table
++14 Fc_2 Contour near future which will operate psychic
+      Friends will be happy at that party
++15 Fc_3 Contour near future which will operate logic
+      My sister will talk to her boss
++16 Fc-1 Contour far future which will operate physical
+      A reforestation will be carried out in a distant country
++17 Fc-2 Contour far future which will operate psychic
+      The parliament of a distant country will hear the complaints of those affected
++18 Fc-3 Contour far future which will operate logic
+      In the neighboring country the reform of the law will be discussed
++19 Fe!1 Environment own future which will operate physical
+      Tomorrow it will be very hot here
++20 Fe!2 Environment own future which will operate psychic
+      A family member will get bored waiting in line
++21 Fe!3 Environment own future which will operate logic
+      A law on animal abuse will be discussed in my town hall
++22 Fe_1 Environment near future which will operate physical
+      In my country the desert areas will increase
++23 Fe_2 Environment near future which will operate psychic
+      In my country the triumph will be celebrated
++24 Fe_3 Environment near future which will operate logic
+      In the parliament of my country they will vote on the working day
++25 Fe-1 Environment far future which will operate physical
+      In a distant country a strong atmospheric depression will form
++26 Fe-2 Environment far future which will operate psychic
+      In a distant country they will celebrate the national holiday
++27 Fe-3 Environment far future which will operate logic
+      In the parliament of a distant country they will discuss public investments
++28 Fi!12 Internal own future which will operate from physical to psychic
+      Eating will be very good for me
++29 Fi!13 Internal own future which will operate from physical to logic
+      I will see if there is light inside the house
++30 Fi!21 Internal own future which will operate from psychic to physical
+      I will improve a lot if I am with your company
++31 Fi!23 Internal own future which will operate from psychic to logic
+      I will like the movie, because I will discover that I will be able to do it too
++32 Fi!31 Internal own future which will operate from logic to physical
+      I will turn around, because the sun will blind me
++33 Fi!32 Internal own future which will operate from logic to psychic
+      I will laugh to check the simplicity of the solution
++34 Fi_12 Internal near future which will operate from physical to psychic
+      My family will enjoy the food
++35 Fi_13 Internal near future which will operate from physical to logic
+      My friends will hear a noise and will stop
++36 Fi_21 Internal near future which will operate from psychic to physical
+      My friends will be hoarse from shouting
++37 Fi_23 Internal near future which will operate from psychic to logic
+      Some councilors of my city council will prefer not to attend the session due to the pressure they will have from a citizen group
++38 Fi_31 Internal near future which will operate from logic to physical
+      My cousin will have to jump when he realizes the hole
++39 Fi_32 Internal near future which will operate from logic to psychic
+      The neighbor will select the clothes of the season
++40 Fi-12 Internal far future which will operate from physical to psychic
+      In a distant city the participants in the march will get tired
++41 Fi-13 Internal far future which will operate from physical to logic
+      In a distant city those affected will go to the hospital for a medical check-up
++42 Fi-21 Internal far future which will operate from psychic to physical
+      In a distant country, sedentary lifestyle will decrease the average life span
++43 Fi-23 Internal far future which will operate from psychic to logic
+      In a distant country, attendees will be convinced of the triumph
++44 Fi-31 Internal far future which will operate from logic to physical
+      In a distant city its inhabitants will exercise in public squares
++45 Fi-32 Internal far future which will operate from logic to psychic
+      In the neighboring country they will celebrate the party in a different way
++46 Fc!12 Contour own future which will operate from physical to psychic
+      Exercising in the morning will make me feel more positive throughout the day
++47 Fc!13 Contour own future which will operate from physical to logic
+      I will change the orientation of the table, because there is no light
++48 Fc!21 Contour own future which will operate from psychic to physical
+      I will talk to them about our problems
++49 Fc!23 Contour own future which will operate from psychic to logic
+      I will confirm that my concerns were meaningless
++50 Fc!31 Contour own future which will operate from logic to physical
+      I will talk to you about the arrangements that remain to be made
++51 Fc!32 Contour own future which will operate from logic to psychic
+      I was saddened by the news
++52 Fc_12 Contour near future which will operate from physical to psychic
+      A stranger will disturb the concert
++53 Fc_13 Contour near future which will operate from physical to logic
+      The student will learn with this physics experiment
++54 Fc_21 Contour near future which will operate from psychic to physical
+      My father yawned at the movies
++55 Fc_23 Contour near future which will operate from psychic to logic
+      In my region the waiters will decide to go on strike
++56 Fc_31 Contour near future which will operate from logic to physical
+      In my country neighborhood groups will improve the public spaces in their neighborhoods
++57 Fc_32 Contour near future which will operate from logic to psychic
+      In my region groups of citizens will inform families about their right to decent housing
++58 Fc-12 Contour far future which will operate from physical to psychic
+      A new musical will be premiered in the capital of a distant country
++59 Fc-13 Contour far future which will operate from physical to logic
+      The inhabitants of a distant city should decide to update the sanitation network
++60 Fc-21 Contour far future which will operate from psychic to physical
+      In a distant country the inhabitants of a town will build a type of geothermal heating
++61 Fc-23 Contour far future which will operate from psychic to logic
+      In a distant country they will offer houses to families affected by a volcano
++62 Fc-31 Contour far future which will operate from logic to physical
+      In a distant country a group of fishermen will clean their coasts of plastic
++63 Fc-32 Contour far future which will operate from logic to psychic
+      A famous musical group will perform in a distant country
++64 Fe!12 Environment own future which will operate from physical to psychic
+      A neighbor will be very affected by those rainy days
++65 Fe!13 Environment own future which will operate from physical to logic
+      The decisions of my council will be conditioned by high temperatures
++66 Fe!21 Environment own future which will operate from psychic to physical
+      Spectators will use fans to avoid the heat
++67 Fe!23 Environment own future which will operate from psychic to logic
+      A friend will find a comfortable place to sit
++68 Fe!31 Environment own future which will operate from logic to physical
+      A family member will build a model
++69 Fe!32 Environment own future which will operate from logic to psychic
+      A relative will paint a landscape
++70 Fe_12 Environment near future which will operate from physical to psychic
+      In this country the good spring temperatures will favor outdoor activities
++71 Fe_13 Environment near future which will operate from physical to logic
+      The decisions of the nation’s government will be conditioned by high temperatures
++72 Fe_21 Environment near future which will operate from psychic to physical
+      In a nearby city, festival goers will leave a lot of garbage in the environment
++73 Fe_23 Environment near future which will operate from psychic to logic
+      In my country a documentary about the biography of a scientist will be successful
++74 Fe_31 Environment near future which will operate from logic to physical
+      A dam will be built in my country
++75 Fe_32 Environment near future which will operate from logic to psychic
+      In my country there will be a campaign to expand health care
++76 Fe-12 Environment far future which will operate from physical to psychic
+      In a distant country the good spring temperatures will favor outdoor activities
++77 Fe-13 Environment far future which will operate from physical to logic
+      In a distant country they will study the movement of waves
++78 Fe-21 Environment far future which will operate from psychic to physical
+      In a distant city, festival goers will leave a lot of garbage in the environment
++79 Fe-23 Environment far future which will operate from psychic to logic
+      In a distant country they will investigate animal behavior
++80 Fe-31 Environment far future which will operate from logic to physical
+      They will build a tunnel in a distant country
++81 Fe-32 Environment far future which will operate from logic to psychic
+      In a distant country they will make an advertising campaign to promote a song
