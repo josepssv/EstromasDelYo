@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Tabla periódica de las áreas del yo estromático. Stromatical areas of the self Periodic Table </title>
+    <!--<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta name="viewport" content="width = 1050, user-scalable = no" />
+<link rel="icon" type="image/png" href="../../pics/favicon.png" />
+<script type="text/javascript" src="../js/jquery-1.7.1.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../traduce.js"></script>
+    <script type="text/javascript" src="../listas/examples.js"></script>
+    <style>
+        body{font-family:arial;overflow:visible;}
+#tabla {
+  font-size:1.5em;
+  display: table;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  
+}
+
+#fuera {
+  border: 1px solid transparent;
+  width:100%;
+  position;relative;
+}
+.contenedor {
+  border: 0px solid transparent;
+  width:100%;
+  position;relative;
+}
+.estroma.simplepasado { 
+	border-style:solid;
+	border-color:#0bb #088 #066 #0aa;
+	border-width:3px 4px 4px 3px;
+	background-color:#dde6ff;
+	color:#020;
+}
+.estroma.simplepresente { 
+	border-style:solid;
+	border-color:#bb0 #880 #660 #aa0;
+	border-width:3px 4px 4px 3px;
+	background-color:#ffffdd;
+	color:#110;
+}
+.estroma.simplefuturo { 
+	border-style:solid;
+	border-color:#0bb #088 #066 #0aa;
+	border-width:3px 4px 4px 3px;
+	background-color:#dde6ff;
+	color:#020;
+}
+
+
+.estroma {display:block;
+	border-style:solid;
+	border-color:#bbb #888 #666 #aaa;
+	border-width:3px 4px 4px 3px;
+	width:4em;
+	height:4em;
+	background:#eee;
+	color:#000;
+	line-height:4em;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	font-weight:700;
+	position;relative;
+}
+.estroma:hover{
+	border-color: #666 #aaa #bbb #888;
+	border-width:4px 3px 3px 4px;
+	color:#f00;
+}
+
+.operador {
+	
+	border-style:solid;
+	border-color:#bbb #888 #666 #aaa;
+	border-width:0px 0px 0px 0px;
+	width:1.5em;
+	height:1.5em;
+	background:transparent;
+	color:#000;
+	line-height:1.5em;
+	text-lign:center;
+	text-decoration:none;
+	font-weight:700;
+	position:absolute;
+	left:0.2em;
+	top:0.1em;
+	font-size:0.8em;
+	
+}
+.operador:hover{
+	border-color: #666 #aaa #bbb #888;
+	border-width:0px 0px 0px 0px;
+	color:#fff;
+}
+estroma.manosPasado{
+background:#777;
+color:#000;
+}
+estroma.manosPresente{
+background:#700;
+color:#fff;
+font-weight:700;
+}
+estroma.manosFuturo{
+background:#888;
+color:#000;
+}
+.idnumero {
+	
+	border-style:solid;
+	border-color:#bbb #888 #666 #aaa;
+	border-width:0px 0px 0px 0px;
+	
+	width:1.5em;
+	height:1.5em;
+	background:transparent;
+	color:#666;
+	line-height:1.5em;
+	text-lign:center;
+	text-decoration:none;
+	font-weight:700;
+	position:absolute;
+	left:3.2em;
+	top:3.5em;;
+	font-size:0.8em;
+	
+}
+
+
+.ccelda {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  background-color: #fdd;
+  font-family:arial;
+}
+
+.cecelda {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.ccnumero {
+  position: absolute;
+  top: 180px;
+  left: 170px;
+  font-size:25px;
+  font-weight:700;
+  
+}
+.ccoperador {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size:25px;
+  font-weight:700;
+  
+}
+.csymbol {
+ text-align: center;
+vertical-align: middle;
+line-height: 160px; 
+font-weight:800;
+font-size:40px;
+}
+
+
+</style>
+</head>
+
+<body>
+    <div id="yo" style="display:visible;">
+        <div data-role="header">
+            <div id="fuera">
+                <div id="tabla" style="background-color:transparent;">
+                    <div style="width:100%;background-color:#fff;"><span id="titulo">TABLA PERIÓDICA DE LAS ÁREAS ESTROMÁTICAS DEL "YO". DOS OPERACIONES, TRES CAPAS ESPACIALES Y UNA CAPA TEMPORAL </span> <span style="display: inline-block;width:10px;"> </span> <span><i>V.0.5</i></span> </div>
+                    <span id="nomenclatura">Nomenclatura: O: espacioOperativo; 1: físico; 2:psíquico; 3:lógico; i: interno; c:contorno; e:entorno; !:propio; _:próximo; -:lejano; P:pasado; .:presente; F:futuro; </span>
+                    <table>
+                        <tr>
+                            <td style="background-color:#000;">
+                                <div id="pasado" style="width:100%;border-width:0px; border-style:solid;"></div>
+                            </td>
+                            <td>
+                                <div id="presente" style="width:100%;border-width:0px; border-style:solid;"></div>
+                            </td>
+                            <td style="background-color:#0ff;color:#000">
+                                <div id="futuro" style="border-width:0px; border-style:solid;color:#000;width:100%;padding:0px;"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="siglas" id="siglaspasado" style=""></div>
+                                <div id="significadopasado" style="height:50px;"></div>
+                            </td>
+                            <td>
+                                <div class="siglas" id="siglaspresente" style=""></div>
+                                <div id="significadopresente" style="height:50px;"></div>
+                            </td>
+                            <td>
+                                <div class="siglas" id="siglasfuturo" style=""></div>
+                                <div id="significadofuturo" style="height:50px;"></div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="" style="height:0px;">
+                    </div>
+                    <table border="0px" width="98%">
+                        <tr>
+                            <td valign="top" width="30%">
+                                <div><span id="referencias">REFERENCIAS</span>
+                                    <blockquote>
+                                        <p style="">
+                                            Waterval-project <a style="margin-left:22px;font-style:italic;text-decoration:none;color:#000;" href="http://waterval-project.com/app/stroma/" target="_new">http://waterval-project.com/app/stroma/</a>
+                                        </p>
+                                        <p style="">
+                                            Muñoz Ballesta, Antonio, (2019) <i>¿Cómo estudiar literatura desde la ciencia y filosofía?</i>. Editorial Academia del hispanismo, Artículo P. 133-142 <i>Estromática gnoseológica de la literatura y demás artes</i>
+                                        </p>
+                                        <p>
+                                            Github <a style="margin-left:22px;font-style:italic;text-decoration:none;color:#000;" href="https://github.com/josepssv/EstromasDelYo" target="_new">https://github.com/josepssv/EstromasDelYo</a>
+                                        </p>
+                                    </blockquote>
+                                </div>
+                            </td>
+                            <td valign="top" width="5%">
+                                <div><span id="copy">COPYRIGHT</span>
+                                    <blockquote>
+                                        <p style=""><a href="https://creativecommons.org/licenses/by-nc/4.0/"><img width="110px" src="https://licensebuttons.net/l/by-nc/3.0/88x31.png"></a>
+                                            <br>
+                                            <a id="doit" href="https://doi.org/10.5281/zenodo.3277322" style="text-decoration:none;color:#000;">https://doi.org/10.5281/zenodo.3277322</a>
+                                        </p>
+                                    </blockquote>
+                                </div>
+                            </td>
+                            <td valign="top" width="40%">
+                                <span id="porque">¿PORQUÉ?</span>
+                                <blockquote>
+                                    <div id="razones" style=""></div>
+                                </blockquote>
+                            </td>
+                            <td valign="top" width="10%">
+                                <span id="lenguajes">LENGUAJES</span>
+                                <blockquote>
+                                    <span class="es" style="cursor:pointer; color:#00d;">Español</span> <br> <span class="en" style="cursor:pointer; color:#00d;">English</span>
+                                </blockquote>
+                            </td>
+                            <td valign="top">
+                                <span id="listados">LISTADOS</span>
+                                <blockquote>
+                                    <span id="listadoGeneralLink" style="cursor:pointer; color:#00d;">Listado general</span>
+                                </blockquote>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" id="listas" style="display:none">
+            <h3 id="listadosTitle"></h3>
+            <div id="listadoGeneral"></div>
+        </div>
+    </div>
+    <div data-role="page" class="modal-content" id="modal" style="overflow:hidden;position:absolute;left:0px;top:0px;height: 2500px;width: 7800px;display:none;background-color:rgba(0,0,0,0.5); ">
+        <div data-role="main" id="contentModal" style=" 
+	
+	margin:auto;
+	height: 600px;
+	width: 800px;
+	font-size:2em;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;	
+	right:0;
+	display:block; 
+	background-color:transparent;
+	padding:20px;
+	text-align:center;
+	vertical-align:center;
+">
+            <table style="background-color:#fff;" id="celdatable" align="center">
+                <tr>
+                    <td style="position:relative;">
+                        <div id="celda" class="ccelda">
+                            <div id="ecelda" class="cecelda">
+                                <div id="symbol" class="csymbol">
+                                    E312
+                                </div>
+                                <div id="cnumero" class="ccnumero">
+                                    +16
+                                </div>
+                                <div id="coperador" class="ccoperador">
+                                    0
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table style="background-color:#fff;width:100%;padding:20px" id="datostable">
+                <tr>
+                    <td valign="top" height="22px">
+                        <div id="textsymbol" style=";text-align:left;font-weight:700">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <div style="text-align:left;" id="ejemplotitulo"></div>
+                        <div id="ejemplo"></div>
+                        <div id="ejemplos"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="text-align:left;" id="oejemplotitulo"></div>
+                        <div id="oejemplo"></div>
+                        <button id="more" style="display:none;font-size:40px;">+</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="datos" style="display:none;"><input id="ejemploi"><input id="numero"><input id="idioma"></div>
+    </div>
+    <script type="text/javascript">
+    var actualPage = 'yo';
+
+    var selectlengua = 1;
+    var consulto = 0
+
+    var Pasado = "Pi!1 Pi!2 Pi!3 Pi_1 Pi_2 Pi_3 Pi-1 Pi-2 Pi-3 Pc!1 Pc!2 Pc!3 Pc_1 Pc_2 Pc_3 Pc-1 Pc-2 Pc-3 Pe!1 Pe!2 Pe!3 Pe_1 Pe_2 Pe_3 Pe-1 Pe-2 Pe-3 Pi!12 Pi!13 Pi!21 Pi!23 Pi!31 Pi!32 Pi_12 Pi_13 Pi_21 Pi_23 Pi_31 Pi_32 Pi-12 Pi-13 Pi-21 Pi-23 Pi-31 Pi-32 Pc!12 Pc!13 Pc!21 Pc!23 Pc!31 Pc!32 Pc_12 Pc_13 Pc_21 Pc_23 Pc_31 Pc_32 Pc-12 Pc-13 Pc-21 Pc-23 Pc-31 Pc-32 Pe!12 Pe!13 Pe!21 Pe!23 Pe!31 Pe!32 Pe_12 Pe_13 Pe_21 Pe_23 Pe_31 Pe_32 Pe-12 Pe-13 Pe-21 Pe-23 Pe-31 Pe-32".split(' ');
+    var Presente = ".i!1 .i!2 .i!3 .i_1 .i_2 .i_3 .i-1 .i-2 .i-3 .c!1 .c!2 .c!3 .c_1 .c_2 .c_3 .c-1 .c-2 .c-3 .e!1 .e!2 .e!3 .e_1 .e_2 .e_3 .e-1 .e-2 .e-3 .i!12 .i!13 .i!21 .i!23 .i!31 .i!32 .i_12 .i_13 .i_21 .i_23 .i_31 .i_32 .i-12 .i-13 .i-21 .i-23 .i-31 .i-32 .c!12 .c!13 .c!21 .c!23 .c!31 .c!32 .c_12 .c_13 .c_21 .c_23 .c_31 .c_32 .c-12 .c-13 .c-21 .c-23 .c-31 .c-32 .e!12 .e!13 .e!21 .e!23 .e!31 .e!32 .e_12 .e_13 .e_21 .e_23 .e_31 .e_32 .e-12 .e-13 .e-21 .e-23 .e-31 .e-32".split(' ');
+    var Futuro = "Fi!1 Fi!2 Fi!3 Fi_1 Fi_2 Fi_3 Fi-1 Fi-2 Fi-3 Fc!1 Fc!2 Fc!3 Fc_1 Fc_2 Fc_3 Fc-1 Fc-2 Fc-3 Fe!1 Fe!2 Fe!3 Fe_1 Fe_2 Fe_3 Fe-1 Fe-2 Fe-3 Fi!12 Fi!13 Fi!21 Fi!23 Fi!31 Fi!32 Fi_12 Fi_13 Fi_21 Fi_23 Fi_31 Fi_32 Fi-12 Fi-13 Fi-21 Fi-23 Fi-31 Fi-32 Fc!12 Fc!13 Fc!21 Fc!23 Fc!31 Fc!32 Fc_12 Fc_13 Fc_21 Fc_23 Fc_31 Fc_32 Fc-12 Fc-13 Fc-21 Fc-23 Fc-31 Fc-32 Fe!12 Fe!13 Fe!21 Fe!23 Fe!31 Fe!32 Fe_12 Fe_13 Fe_21 Fe_23 Fe_31 Fe_32 Fe-12 Fe-13 Fe-21 Fe-23 Fe-31 Fe-32".split(' ');
+
+
+    var colort = ['', '#000', '#ffe', '#0ff']
+    var colormanos = ['#ddd', '#a89', '#f09', '#98a']
+
+    function idioma() {
+        $('#titulo').html(leTitulo[selectlengua]);
+        $('#nomenclatura').html(leNomenclatura[selectlengua]);
+        $('#referencias').html(leReferencias[selectlengua]);
+        $('#lenguajes').html(leLenguajes[selectlengua]);
+        $('#porque').html(lePorque[selectlengua]);
+        $('#razones').html(leRazones[selectlengua]);
+        $('#tpasado').html(leTiempo[0][selectlengua].toUpperCase());
+        $('#tpresente').html(leTiempo[1][selectlengua].toUpperCase());
+        $('#tfuturo').html(leTiempo[1][selectlengua].toUpperCase());
+        $('#listados').html(leList[0][selectlengua].toUpperCase());
+        $('#listadoGeneralLink').html(leList[1][selectlengua]);
+        $('#doit').html(leDoi[selectlengua]);
+        $('#doit').attr('href', leDoi[selectlengua]);
+    }
+
+    function changePage(id) {
+        if (id == 'yo') {
+            $('#' + actualPage).hide();
+            $('body').css('overflow', 'visible');
+        }
+        if (id == 'modal') {
+            $('body').css('overflow', 'hidden');
+
+            //$('#'+actualPage).css('overflow','hidden');
+        }
+        $('#' + id).show();
+        actualPage = id;
+    }
+
+    function gup(name, url) {
+        if (!url) { url = location.href; }
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regexS = "[\\?&]" + name + "=([^&#]*)";
+        var regex = new RegExp(regexS);
+        var results = regex.exec(url);
+
+        return results == null ? null : results[1];
+        //gup('q', 'hxxp://example.com/?q=abc')
+    }
+
+
+
+    $(document).ready(function() {
+
+        var getlan = gup('lan')
+        if (getlan != null) {
+            switch (getlan) {
+                case 'en':
+                    selectlengua = 1
+                    $('#idioma').val(getlan)
+                    break;
+                case 'es':
+                    selectlengua = 0
+                    $('#idioma').val(getlan)
+                    break;
+                default:
+                    selectlengua = 1
+                    $('#idioma').val('en')
+                    break;
+            }
+
+        } else {
+
+            //selectlengua=1
+            location.href = "index.html?lan=en"
+
+            //window.location.replace("index.hml?lan=en")
+        }
+        idioma()
+        var cont = 0;
+        var simple = '';
+        var piel = '';
+        var eo = 0
+        var table_body = '<table border="1"><tr><th colspan=9 style="color:#fff;" border="0" id="tpasado">' + leTiempo[0][selectlengua].toUpperCase() + '</th></tr>';
+        for (var i = 0; i < 9; i++) {
+            table_body += '<tr>';
+            for (var j = 0; j < 9; j++) {
+                table_body += '<td style="position:relative;">';
+                //table_body +='<div class="contenedor">'
+                simple = 'pasado'
+                piel = '';
+                eo = 0
+                if (cont < 27) { simple = 'simplepasado' }
+                eo = 0
+                if (Pasado[cont].indexOf('c!') > -1) {
+                    piel = ' manosPasado';
+                    eo = 1
+                }
+                table_body += '<div id="' + Pasado[cont] + '>-' + (cont + 1) + '" class="estroma ' + simple + piel + '" >' + Pasado[cont] + '</div>'
+                table_body += '<div id="O' + Pasado[cont] + '" class="operador">' + eo + '</div>'
+                table_body += '<div class="idnumero">-' + (cont + 1) + '</div>'
+                //table_body +='</div>'
+                table_body += '</td>';
+                cont++
+                if (cont >= 81) { cont = 0 }
+            }
+            table_body += '</tr>';
+        }
+        table_body += '</table>';
+        //alert(table_body)
+        $('#pasado').html(table_body);
+        cont = 0
+        table_body = '<table border="1"><tr><th colspan=9 border="0" id="tpresente">' + leTiempo[1][selectlengua].toUpperCase() + '</th></tr>';
+        for (var i = 0; i < 9; i++) {
+            table_body += '<tr>';
+            for (var j = 0; j < 9; j++) {
+                simple = 'presente'
+                piel = ''
+                if (cont < 27) { simple = 'simplepresente ' }
+                eo = 0
+                if (Presente[cont].indexOf('c!') > -1) {
+                    piel = ' manosPresente';
+                    eo = 1
+                }
+                table_body += '<td style="position:relative">';
+                table_body += '<div id="' + Presente[cont] + '>' + (cont + 1) + '" class="estroma ' + simple + piel + '' + '">' + Presente[cont] + '</div>'
+                table_body += '<div id="O' + Presente[cont] + '" class="operador">' + eo + '</div>'
+                table_body += '<div class="idnumero">' + (cont + 1) + '</div>'
+                table_body += '</td>';
+                cont++
+                if (cont >= 81) { cont = 0 }
+            }
+            table_body += '</tr>';
+        }
+        table_body += '</table>';
+        //alert(table_body)
+        $('#presente').html(table_body);
+        cont = 0
+
+        table_body = '<table border="1"><tr><th colspan=9 border="0" style="color:#000;" id="tfuturo">' + leTiempo[2][selectlengua].toUpperCase() + '</th></tr>';
+        for (var i = 0; i < 9; i++) {
+            table_body += '<tr>';
+            for (var j = 0; j < 9; j++) {
+                simple = 'presente'
+                if (cont < 27) { simple = 'simplefuturo' }
+                piel = ''
+                eo = 0
+                if (Futuro[cont].indexOf('c!') > -1) {
+                    piel = ' manosFuturo';
+                    eo = 1
+                }
+                table_body += '<td style="position:relative">';
+                table_body += '<div  id="' + Futuro[cont] + '>+' + (cont + 1) + '"  class="estroma ' + simple + piel + '" >' + Futuro[cont] + '</div>'
+                table_body += '<div id="O' + Futuro[cont] + '" class="operador">' + eo + '</div>'
+                table_body += '<div class="idnumero">+' + (cont + 1) + '</div>'
+                table_body += '</td>';
+                cont++
+                if (cont >= 81) { cont = 0 }
+            }
+            table_body += '</tr>';
+        }
+        table_body += '</table>';
+        //alert(table_body)
+        $('#futuro').html(table_body);
+        $('.estroma.manosPasado').css("background-color", colormanos[1])
+        $('.estroma.manosPresente').css("background-color", colormanos[2])
+        $('.estroma.manosPresente').css("color", colort[2])
+        $('.estroma.manosFuturo').css("background-color", colormanos[3])
+
+        $('.es').click(function() {
+            //selectlengua=0
+            //idioma()
+            location.href = "index.html?lan=es"
+        });
+        $('.en').click(function() {
+            //selectlengua=1
+            //idioma()
+            location.href = "index.html?lan=en"
+        });
+        $('.siglas').click(function() {
+            //changePage('modal')
+        });
+        $('#modal').click(function() {
+            changePage('yo')
+        });
+        $('#listadoGeneralLink').click(function() {
+
+            window.open('generallist.html?lan=' + lengua[selectlengua], 'lan')
+            //location.href='generallist.html?lang='+lengua[selectlengua]
+        });
+        $('#more').click(function() {
+            var numero = $('#symbol').html()
+            //var n=numero.split('>')
+            var analisis = analiza(numero, 0)
+            //JSON.stringify(analisis)
+            var dime = prompt(consulto + ". " + analisis.textsymbol)
+            if (dime != null) {
+                $('#numero').val(consulto)
+                $('#ejemploi').val(dime)
+                //console.log($('#ejemplo').val()+' '+$('#numero').val())
+                envia()
+            }
+        });
+        $('#datostable').click(false);
+        $('#celdatable').click(false);
+
+        $('.estroma').click(function() {
+            changePage('modal')
+            $('.estroma').css("background-color", '#eee')
+            $('.estroma.simplepasado').css("background-color", '#dff')
+            $('.estroma.simplepresente').css("background-color", '#ffd')
+            $('.estroma.simplefuturo').css("background-color", '#dff')
+            $('.estroma.manosPasado').css("background-color", colormanos[1])
+            $('.estroma.manosPresente').css("background-color", colormanos[2])
+            $('.estroma.manosPresente').css("color", '#000')
+            $('.estroma.manosFuturo').css("background-color", colormanos[3])
+            $(this).css("background-color", '#fff')
+            $('#siglaspasado').html('')
+            $('#siglaspresente').html('')
+            $('#siglasfuturo').html('')
+            var numero = $(this).attr('id')
+            var n = numero.split('>')
+            consulto = n[1]
+            var analisis = analiza($(this).text(), n[1])
+            //if((noperador)<1000){}else{$('#oejemplotitulo').html(leOperativos[(noperador)].t[selectlengua])}
+            //$('#ejemplotitulo').html(analisis.ejemplotitulo)
+            //$('#oejemplotitulo').html(analisis.oejemplotitulo)
+            $('#cnumero').html(analisis.cnumero);
+            $('#symbol').html(analisis.symbol);
+            $('#textsymbol').html(analisis.textsymbol)
+            $('#coperador').html(analisis.coperador)
+            $('#ecelda').css('background-color', analisis.eceldacss)
+            $('#celda').css('background-color', analisis.celdacss)
+            $('#numero').val(consulto + '')
+            getEjemplos()
+        })
+
+
+        var combinaE = [
+            [1, 2],
+            [1, 3],
+            [2, 1],
+            [2, 3],
+            [3, 1],
+            [3, 2]
+        ]
+
+        var ee1 = '1 2 3'.split(' ')
+        var ee2 = '12 13 21 23 31 32'.split(' ')
+        var ice = 'i! i_ i- c! c_ c- e! e_ e-'.split(' ')
+        var tt = 'P . F O'.split(' ')
+        var oo = 'o'
+
+        var p = tt[0]
+        var t = ''
+        var O = []
+        var cont = 1
+        var tx = '',
+            analisis = ''
+
+        for (var a = 0; a < ice.length; a++) {
+            for (var b = 0; b < ee1.length; b++) {
+                tx = p + ice[a] + '' + ee1[b]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('-' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+
+            }
+        }
+        for (var a = 0; a < ice.length; a++) {
+            for (var c = 0; c < ee2.length; c++) {
+                tx = p + ice[a] + '' + ee2[c]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('-' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+
+            }
+        }
+        //var t0='var Pasado = "'+ O.join(' ')+'".split('+"' '"+');'
+        var t0 = '<br><b>' + leTiempo[0][selectlengua].toUpperCase() + '</b><br>' + O.join('<br>') + ''
+        //alert(tx)
+
+
+        p = tt[1]
+        t = ''
+        O = []
+        cont = 1
+        for (var a = 0; a < ice.length; a++) {
+            for (var b = 0; b < ee1.length; b++) {
+                tx = p + ice[a] + '' + ee1[b]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                O.push('' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+            }
+        }
+        for (var a = 0; a < ice.length; a++) {
+            for (var c = 0; c < ee2.length; c++) {
+                tx = p + ice[a] + '' + ee2[c]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+
+            }
+        }
+        //var t1='var Presente = "'+ O.join(' ')+'".split('+"' '"+');'
+        var t1 = '<br><b>' + leTiempo[1][selectlengua].toUpperCase() + '</b><br>' + O.join('<br>') + ''
+
+
+        p = tt[2]
+        t = ''
+        O = []
+        cont = 1
+
+        for (var a = 0; a < ice.length; a++) {
+            for (var b = 0; b < ee1.length; b++) {
+                tx = p + ice[a] + '' + ee1[b]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('+' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+            }
+        }
+
+        for (var a = 0; a < ice.length; a++) {
+            for (var c = 0; c < ee2.length; c++) {
+                tx = p + ice[a] + '' + ee2[c]
+                t += tx + ', '
+                analisis = analiza(tx, 0)
+                //O.push(tx+' '+analisis.textsymbol+'')
+                O.push('+' + cont + ' ' + tx + ' ' + analisis.textsymbol + '')
+                cont++
+            }
+        }
+
+        var t2 = '<br><b>' + leTiempo[2][selectlengua].toUpperCase() + '</b><br>' + O.join('<br>') + ''
+
+        $('#listadoGeneral').html(t0 + '\n' + t1 + '\n' + t2);
+
+
+    });
+
+    function analiza(texto, numero) {
+        var primera = texto.substring(0, 1)
+        var id1 = ''
+        var verbo = ''
+        var tiempo = leTiempo[0][0]
+
+        var colortn = 0;
+        if (primera == 'P') {
+            tiempo = leTiempo[0][0]
+            id1 = leTiempo[0][selectlengua];
+            verbo = leVerbo.pasado[selectlengua]
+            colortn = 1;
+
+        }
+        if (primera == '.') {
+            tiempo = leTiempo[1][0]
+            id1 = leTiempo[1][selectlengua];
+            verbo = leVerbo.presente[selectlengua]
+            colortn = 2;
+        }
+        if (primera == 'F') {
+            tiempo = leTiempo[2][0]
+            id1 = leTiempo[2][selectlengua];
+            verbo = leVerbo.futuro[selectlengua]
+            colortn = 3;
+        }
+        var id2 = ''
+        var segunda = texto.substring(1, 2)
+        if (segunda == 'i') { id2 = leEntorno[0].prop[selectlengua]; }
+        if (segunda == 'c') { id2 = leEntorno[1].prop[selectlengua]; }
+        if (segunda == 'e') { id2 = leEntorno[2].prop[selectlengua]; }
+        var id3 = ''
+        var tercera = texto.substring(2, 3)
+        if (tercera == '!') { id3 = leDistancia[0].prop[selectlengua]; }
+        if (tercera == '_') { id3 = leDistancia[1].prop[selectlengua]; }
+        if (tercera == '-') { id3 = leDistancia[2].prop[selectlengua]; }
+        var colorm = 0;
+        var noperador = 0;
+        if (segunda == 'c' && tercera == '!') {
+            noperador = 1
+            if (colortn == 1) { colorm = 1; }
+            if (colortn == 2) { colorm = 2; }
+            if (colortn == 3) { colorm = 3; }
+        }
+
+        var quintaosexta = texto.substring(3)
+        var sexta = ''
+        var quinta = ''
+        var id5 = ''
+        var id6 = ''
+
+        quinta = quintaosexta.substring(0, 1)
+        if (quinta == ('1')) { id5 = leNivel[0].prop[selectlengua]; }
+        if (quinta == ('2')) { id5 = leNivel[1].prop[selectlengua]; }
+        if (quinta == ('3')) { id5 = leNivel[2].prop[selectlengua]; }
+
+        if (quintaosexta.length == 2) {
+            sexta = quintaosexta.substring(1, 2)
+            id6 = ''
+            if (sexta == ('1')) { id6 = leNivel[0].prop[selectlengua]; }
+            if (sexta == ('2')) { id6 = leNivel[1].prop[selectlengua]; }
+            if (sexta == ('3')) { id6 = leNivel[2].prop[selectlengua]; }
+            //id6=sexta+'fff'
+        }
+        var n = quintaosexta.length
+        var opera = verbo
+        var hasta = ''
+        if (n == 2) {
+            opera += lePrepos[selectlengua][0];
+            hasta = lePrepos[selectlengua][1]
+        }
+        var siglas = texto.split('')
+
+        //var comp=texto+' = '+siglas.join('&nbsp;&nbsp;')+'&nbsp;&nbsp;&nbsp;&nbsp;' +id2+' '+ id3+' ' + id1 +' '+ opera + id5 +' ' +hasta+ id6 +' '
+
+        var comp = id2.capitalize() + ' ' + id3 + ' ' + id1 + ' ' + opera + id5 + ' ' + hasta + id6 + ' '
+
+        //$('#siglas'+tiempo).html();
+
+        /*
+        $('#ejemplotitulo').html(leEjemplo[selectlengua])
+        if((noperador)<1000){
+        $('#oejemplotitulo').html(leOperativo[selectlengua])
+        }else{
+        //$('#oejemplotitulo').html(leOperativos[(noperador)].t[selectlengua])
+        }
+        $('#cnumero').html(numero);
+        $('#symbol').html(texto);
+        $('#textsymbol').html(comp)
+        $('#coperador').html(noperador)
+
+        	$('#ecelda').css('background-color',colormanos[colorm])
+
+        $('#celda').css('background-color',colort[colortn])
+        */
+        return { ejemplotitulo: leEjemplo[selectlengua], oejemplotitulo: leOperativo[selectlengua], cnumero: numero, symbol: texto, textsymbol: comp, coperador: noperador, eceldacss: colormanos[colorm], celdacss: colort[colortn] }
+    }
+
+    function envia() {
+        var n = $('#numero').val()
+        var e = $('#ejemploi').val()
+        var i = $('#idioma').val()
+        // alert(n)
+        var request = $.ajax({
+            url: 'x.php',
+            type: 'POST',
+            data: { 'ejemplo': e, 'numero': n, 'action': 'insert', 'idioma': i }
+            //data: $('#datosform').serialize()
+        });
+
+
+        request.done(function(msg) {
+
+            alert('OK')
+
+        });
+
+        request.fail(function(jqXHR, textStatus) { alert("Request failed: " + textStatus); });
+
+
+    }
+
+
+    function getEjemplos() {
+        var n = $('#numero').val()
+        var i = $('#idioma').val()
+        var nu = Math.abs(parseInt(n))
+        var signo = n.substring(0, 1)
+        var msg = ''
+        if (signo == '-' || signo == '+') {
+            if (signo == '-') { 
+            	if(selectlengua==0){ msg = ejemploPasado[nu] }
+            	if(selectlengua==1){ msg = ejemploPasado1[nu] }
+        }
+            if (signo == '+') { 
+            	if(selectlengua==0){msg = ejemploFuturo[nu] }
+            	if(selectlengua==1){msg = ejemploFuturo1[nu] }
+            }
+        } else {
+            if(selectlengua==0){msg = ejemploPresente[nu]}
+             if(selectlengua==1){msg = ejemploPresente1[nu]}
+        }
+
+        $('#ejemplos').html(msg)
+
+
+
+    }
+
+    function getAjaxEjemplos() {
+        var n = $('#numero').val()
+        var i = $('#idioma').val()
+
+        var request = $.ajax({
+            url: 'x.php',
+            type: 'POST',
+            data: { 'numero': n, 'action': 'get', 'idioma': i }
+            //data: $('#datosform').serialize()
+        });
+
+
+        request.done(function(msg) {
+
+            //$('#ejemplos').html(JSON.stringify(msg))
+            //alert(msg)
+            $('#ejemplos').html(msg)
+
+        });
+
+        request.fail(function(jqXHR, textStatus) { alert("Request failed: " + textStatus); });
+
+
+    }
+
+
+    String.prototype.capitalize = function() {
+        return this.charAt(0).toUpperCase() + this.slice(1)
+    }
+    </script>
+</body>
+
+</html>
