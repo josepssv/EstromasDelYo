@@ -37,7 +37,7 @@ PAST
       I was very funny about your joke
 
 -12 Pc!3 Contour own past who operated logic
-      I found out I had a better chance than I thought
+     I spoke with my sister
 
 -13 Pc_1 Contour near past who operated physical
       A family member picked the fruit
@@ -282,7 +282,7 @@ PRESENT
       I am amused by your joke
 
 12 .c!3 Contour own present that operates logic
-      I am discovering that I have a better chance than I thought
+     I talk with my sister
 
 13 .c_1 Contour near present that operates physical
       A family member is changing the car’s wheel
@@ -593,7 +593,7 @@ FUTURE
       I will laugh to check the simplicity of the solution
 
 +34 Fi_12 Internal near future which will operate from physical to psychic
-      My family will enjoy the food
+      I will talk to my sister
 
 +35 Fi_13 Internal near future which will operate from physical to logic
       My friends will hear a noise and will stop
