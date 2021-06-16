@@ -35,7 +35,7 @@ PASADO
       Me hizo mucha gracia tu chiste
 
 -12 Pc!3 Contorno propio pasado que operó lógico
-      Descubrí que tenía más posibilidades de las que creía
+      Estuve hablando con mi hermana
 
 -13 Pc_1 Contorno cercano pasado que operó físico
       Un familiar recogió la fruta
@@ -279,7 +279,7 @@ PRESENTE
       Me está haciendo gracia tu chiste
 
 12 .c!3 Contorno propio presente que opera lógico
-      Estoy descubriendo que tengo más posibilidades de las que creía
+      Estoy hablando con mi hermana
 
 13 .c_1 Contorno cercano presente que opera físico
       Un familiar está cambiando la rueda del coche
@@ -523,7 +523,7 @@ FUTURO
       Iré a ver la película
 
 +12 Fc!3 Contorno propio futuro que operará lógico
-      Tendré que saltar para continuar
+      Hablaré con mi hermana
 
 +13 Fc_1 Contorno cercano futuro que operará físico
       Un familiar pondrá la mesa
