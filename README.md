@@ -7,7 +7,7 @@ Operación:  1: física; 2: psíquica; 3:lógica;
 
 Espacio estromático: i: interno; c: contorno; e: entorno; 
 
-Capas espaciales: !: propia; _: próxima; -: lejana; 
+Capas espaciales del entorno: !: propia; _: próxima; -: lejana; 
 
 Capas temporales: P: pasado; .: presente; F: futuro; 
 
