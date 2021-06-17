@@ -23,6 +23,7 @@ El ciclo de operaciones ideal sería tres pero es demasiado complejo y solo abar
 
 
 
+
 **Artículo principal**
 
   https://doi.org/10.5281/zenodo.3339869
