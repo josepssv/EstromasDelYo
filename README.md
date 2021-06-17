@@ -17,7 +17,7 @@ Numeración: - pasado, + futuro, presente no lleva signo
 
 Los estromas del 1 al 27 son operaciones endomorficas o también una sola operación 
 
-El resto del 27 al 81, en los diferentes tiempos son transición entre dos operaciones diferentes.
+El resto del 27 al 81 son transición entre dos operaciones diferentes.
 
 El número de operaciones ideal sería tres pero es demasiado complejo
 
