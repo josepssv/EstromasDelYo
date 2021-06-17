@@ -9,7 +9,9 @@ Espacio estromático: i: interno; c: contorno; e: entorno;
 
 Capas espaciales: !: propia; _: próxima; -: lejana; 
 
-Capas temporales: P: pasado; .: presente; F: futuro;
+Capas temporales: P: pasado; .: presente; F: futuro; 
+
+(en numeración: - pasado, + futuro, presente no lleva signo)
 
 **Artículo principal**
 
