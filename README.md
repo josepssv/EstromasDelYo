@@ -22,6 +22,7 @@ El resto del 27 al 81, en los diferentes tiempos son transición entre dos opera
 El ciclo de operaciones ideal sería tres pero es demasiado complejo y solo abarcamos dos
 
 
+
 **Artículo principal**
 
   https://doi.org/10.5281/zenodo.3339869
