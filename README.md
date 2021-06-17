@@ -11,7 +11,16 @@ Capas espaciales: !: propia; _: próxima; -: lejana;
 
 Capas temporales: P: pasado; .: presente; F: futuro; 
 
-(en numeración: - pasado, + futuro, presente no lleva signo)
+----
+
+Numeración: - pasado, + futuro, presente no lleva signo
+
+Los estromas del 1 al 27 son operaciones endomorficas o también una sola operación 
+
+El resto del 27 al 81, en los diferentes tiempos son transición entre dos operaciones diferentes.
+
+El ciclo de operaciones ideal sería tres pero es demasiado complejo y solo abarcamos dos
+
 
 **Artículo principal**
 
