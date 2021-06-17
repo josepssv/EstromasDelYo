@@ -3,13 +3,13 @@ Impresiones, listados y código sobre estromas del Yo
 
 Combinatoria básica de los componentes del estroma definidos por la filosofía estromática
 
-Operación:  1: física; 2:psíquica; 3:lógica; 
+Operación:  1: física; 2: psíquica; 3:l ógica; 
 
-Espacio: i: interno; c:contorno; e:entorno; 
+Espacio: i: interno; c: contorno; e: entorno; 
 
-Distancia: !:propia; _:próxima; -:lejana; 
+Ámbito: !: propio; _: próximo; -: lejano; 
 
-Tiempo: P:pasado; .:presente; F:futuro;
+Tiempo: P: pasado; .: presente; F: futuro;
 
 **Artículo principal**
 
