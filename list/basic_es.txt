@@ -14,9 +14,9 @@ PASADO
 -31 Pe_1 Entorno cercano pasado que operó físico
 -32 Pe_2 Entorno cercano pasado que operó psíquico
 -33 Pe_3 Entorno cercano pasado que operó lógico
--31 Pe-1 Entorno lejano pasado que operó físico
--32 Pe-2 Entorno lejano pasado que operó psíquico
--33 Pe-3 Entorno lejano presente que opera lógico
+-41 Pe-1 Entorno lejano pasado que operó físico
+-42 Pe-2 Entorno lejano pasado que operó psíquico
+-43 Pe-3 Entorno lejano presente que opera lógico
 
 PRESENTE
 1 .i!1 Interno propio presente que opera físico
