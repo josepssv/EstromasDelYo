@@ -265,7 +265,8 @@ font-size:40px;
                             <td valign="top">
                                 <span id="listados">LISTADOS</span>
                                 <blockquote>
-                                    <span id="listadoGeneralLink" style="cursor:pointer; color:#00d;">Listado general</span>
+                                    <span id="listadoGeneralLink" style="cursor:pointer; color:#00d;">Listado general</span><br>
+				    <span id="listadoExemplosLink" style="cursor:pointer; color:#00d;">Listado con ejemplos</span><
                                 </blockquote>
                             </td>
                         </tr>
@@ -367,6 +368,7 @@ font-size:40px;
         $('#tfuturo').html(leTiempo[1][selectlengua].toUpperCase());
         $('#listados').html(leList[0][selectlengua].toUpperCase());
         $('#listadoGeneralLink').html(leList[1][selectlengua]);
+	$('#listadoEjemplosLink').html(leList[2][selectlengua]);
         $('#doit').html(leDoi[selectlengua]);
         $('#doit').attr('href', leDoi[selectlengua]);
     }
@@ -533,6 +535,11 @@ font-size:40px;
         });
         $('#listadoGeneralLink').click(function() {
 	    window.open('../list/' + lengua[selectlengua]+'.txt', 'lan')
+            //window.open('generallist.html?lan=' + lengua[selectlengua], 'lan')
+            //location.href='generallist.html?lang='+lengua[selectlengua]
+        });
+	 $('#listadoExemplosLink').click(function() {
+	    window.open('../list/examples_' + lengua[selectlengua]+'.txt', 'lan')
             //window.open('generallist.html?lan=' + lengua[selectlengua], 'lan')
             //location.href='generallist.html?lang='+lengua[selectlengua]
         });
