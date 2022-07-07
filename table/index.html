@@ -377,6 +377,7 @@ font-size:40px;
         if (id == 'yo') {
             $('#' + actualPage).hide();
             $('body').css('overflow', 'visible');
+            window.history.replaceState('EstromasDelYo', 'Estroma', 'index.html')
         }
         if (id == 'modal') {
             $('body').css('overflow', 'hidden');
@@ -398,7 +399,48 @@ font-size:40px;
         //gup('q', 'hxxp://example.com/?q=abc')
     }
 
+    var wlr = window.location.search.replace('&amp', '&')
+    const urlSearchParams = new URLSearchParams(wlr);
+    const param = Object.fromEntries(urlSearchParams.entries());
 
+    function testroma(u,t){
+            changePage('modal')
+            $('.estroma').css("background-color", '#eee')
+            $('.estroma.simplepasado').css("background-color", '#dff')
+            $('.estroma.simplepresente').css("background-color", '#ffd')
+            $('.estroma.simplefuturo').css("background-color", '#dff')
+            $('.estroma.manosPasado').css("background-color", colormanos[1])
+            $('.estroma.manosPresente').css("background-color", colormanos[2])
+            $('.estroma.manosPresente').css("color", '#000')
+            $('.estroma.manosFuturo').css("background-color", colormanos[3])
+            $('.estroma').css("background-color", '#fff')
+            $('#siglaspasado').html('')
+            $('#siglaspresente').html('')
+            $('#siglasfuturo').html('')
+            var n0=''
+            cont=parseInt(u-1)
+            if(t=='p' || t=='P'){n0='-'}
+            if(t=='f' || t=='F'){n0='+'}
+            var n1=Presente[cont]
+            if(n0=='+'){n1=Futuro[cont]}
+            if(n0=='-'){n1=Pasado[cont]}
+            var numero=n1 + '>'+n0+ (cont + 1)
+            var n = numero.split('>')
+            consulto = n[1]
+            var analisis = analiza(n1, n[1])
+            //if((noperador)<1000){}else{$('#oejemplotitulo').html(leOperativos[(noperador)].t[selectlengua])}
+            //$('#ejemplotitulo').html(analisis.ejemplotitulo)
+            //$('#oejemplotitulo').html(analisis.oejemplotitulo)
+            $('#cnumero').html(analisis.cnumero);
+            $('#symbol').html(analisis.symbol);
+            $('#textsymbol').html(analisis.textsymbol)
+            $('#coperador').html(analisis.coperador)
+            $('#ecelda').css('background-color', analisis.eceldacss)
+            $('#celda').css('background-color', analisis.celdacss)
+            $('#numero').val(consulto + '')
+            getEjemplos()
+        
+    }
 
     $(document).ready(function() {
 
@@ -427,6 +469,7 @@ font-size:40px;
             //window.location.replace("index.hml?lan=en")
         }
         idioma()
+
         var cont = 0;
         var simple = '';
         var piel = '';
@@ -517,6 +560,15 @@ font-size:40px;
         $('.estroma.manosPresente').css("color", colort[2])
         $('.estroma.manosFuturo').css("background-color", colormanos[3])
 
+        if(parseInt(param.n)> -1){
+            var t=''
+            if(param.t> -1){
+                t=param.t
+            }
+            testroma(param.n,param.t)
+
+        }
+
         $('.es').click(function() {
             //selectlengua=0
             //idioma()
@@ -576,6 +628,11 @@ font-size:40px;
             var numero = $(this).attr('id')
             var n = numero.split('>')
             consulto = n[1]
+            var t=consulto.substring(0,1)
+            var tempo=''
+            if(t=='+'){tempo='&t=f'}
+            if(t=='-'){tempo='&t=p'}
+            var num=Math.abs(consulto)
             var analisis = analiza($(this).text(), n[1])
             //if((noperador)<1000){}else{$('#oejemplotitulo').html(leOperativos[(noperador)].t[selectlengua])}
             //$('#ejemplotitulo').html(analisis.ejemplotitulo)
@@ -588,6 +645,7 @@ font-size:40px;
             $('#celda').css('background-color', analisis.celdacss)
             $('#numero').val(consulto + '')
             getEjemplos()
+            window.history.replaceState('EstromasDelYo', 'Estroma', 'index.html?lan='+getlan+'&n='+num+tempo);
         })
 
 
