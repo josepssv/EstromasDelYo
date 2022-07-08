@@ -377,6 +377,7 @@ font-size:40px;
         if (id == 'yo') {
             $('#' + actualPage).hide();
             $('body').css('overflow', 'visible');
+            param.ex=undefined
             window.history.replaceState('EstromasDelYo', 'Estroma', 'index.html')
         }
         if (id == 'modal') {
@@ -633,6 +634,7 @@ font-size:40px;
             var tempo=''
             if(t=='+'){tempo='&t=f'}
             if(t=='-'){tempo='&t=p'}
+
             var num=Math.abs(consulto)
             var analisis = analiza($(this).text(), n[1])
             //if((noperador)<1000){}else{$('#oejemplotitulo').html(leOperativos[(noperador)].t[selectlengua])}
@@ -904,8 +906,7 @@ font-size:40px;
              if(selectlengua==1){msg = ejemploPresente1[nu]}
         }
         
-        if(parseInt(param.ex)!= -1){
-
+        if(param.ex!= undefined){
             msg=param.ex
         }
         $('#ejemplos').html(msg)
