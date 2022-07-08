@@ -438,6 +438,7 @@ font-size:40px;
             $('#ecelda').css('background-color', analisis.eceldacss)
             $('#celda').css('background-color', analisis.celdacss)
             $('#numero').val(consulto + '')
+
             getEjemplos()
         
     }
@@ -902,7 +903,11 @@ font-size:40px;
             if(selectlengua==0){msg = ejemploPresente[nu]}
              if(selectlengua==1){msg = ejemploPresente1[nu]}
         }
+        
+        if(parseInt(param.ex)!= -1){
 
+            msg=param.ex
+        }
         $('#ejemplos').html(msg)
 
 
