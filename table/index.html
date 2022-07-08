@@ -328,7 +328,9 @@ font-size:40px;
                     <td valign="top">
                         <div style="text-align:left;" id="ejemplotitulo"></div>
                         <div id="ejemplo"></div>
-                        <div id="ejemplos"></div>
+                        <div id="ejemplos"  contenteditable="true" ></div>
+                        <button id="ejemplosok" style="display:block;text-align:center;margin-left: 50px;background-color: #00f;color:#fff;">Ok</button>
+
                     </td>
                 </tr>
                 <tr>
@@ -441,7 +443,7 @@ font-size:40px;
             $('#ecelda').css('background-color', analisis.eceldacss)
             $('#celda').css('background-color', analisis.celdacss)
             $('#numero').val(consulto + '')
-
+            $('#ejemplosok').css('display','none');
             getEjemplos()
         
     }
@@ -650,6 +652,7 @@ font-size:40px;
             $('#celda').css('background-color', analisis.celdacss)
             $('#numero').val(consulto + '')
             getEjemplos()
+            $('#ejemplosok').css('display','none');
             window.history.replaceState('EstromasDelYo', 'Estroma', 'index.html?lan='+getlan+'&n='+num+tempo);
         })
 
@@ -761,7 +764,23 @@ font-size:40px;
         var t2 = '<br><b>' + leTiempo[2][selectlengua].toUpperCase() + '</b><br>' + O.join('<br>') + ''
 
         $('#listadoGeneral').html(t0 + '\n' + t1 + '\n' + t2);
+        $('#ejemplos').click(function() {
+            $('#ejemplosok').css('display','block');
+        })
+        $('#ejemplosok').css('display','none');
+        $('#ejemplosok').click(function() {
 
+            var ek=$('#ejemplos').text()
+
+            var cn=$('#cnumero').html()
+            var num=Math.abs(cn)
+            var te=cn.substring(0,1)
+            var tempo=''
+            if(te=='+'){tempo='&t=f'}
+            if(te=='-'){tempo='&t=p'}
+            var cod='index.html?lan='+getlan+'&n='+num+tempo+'&ex='+ek
+            window.history.replaceState('EstromasDelYo', 'Estroma', cod);
+        })
 
     });
 
