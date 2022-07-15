@@ -356,7 +356,7 @@ font-size:40px;
 
 
     var colort = ['', '#000', '#ffe', '#0ff']
-    var colormanos = ['#ddd', '#a89', '#f09', '#98a']
+    var colormanos = ['#ddd', '#a89', '#f09', '#98a' , '#777','#666'  ,'#0a0' ]
 
     function idioma() {
         $('#titulo').html(leTitulo[selectlengua]);
@@ -414,7 +414,9 @@ font-size:40px;
             $('.estroma.simplepresente').css("background-color", '#ffd')
             $('.estroma.simplefuturo').css("background-color", '#dff')
             $('.estroma.manosPasado').css("background-color", colormanos[1])
-            $('.estroma.manosPresente').css("background-color", colormanos[2])
+            $('.estroma.internoPresente').css("background-color", colormanos[4])
+            $('.estroma.internoPresente2').css("background-color", colormanos[5])
+            $('.estroma.entornoPresente').css("background-color", colormanos[6])
             $('.estroma.manosPresente').css("color", '#000')
             $('.estroma.manosFuturo').css("background-color", colormanos[3])
            
@@ -521,6 +523,17 @@ font-size:40px;
                     piel = ' manosPresente';
                     eo = 1
                 }
+                if (Presente[cont].indexOf('i!') > -1) {
+                    piel = ' internoPresente';
+                    eo = 1
+                    if (Presente[cont].indexOf('i!2') > -1) {
+                        piel = ' internoPresente2';
+                    }
+                }
+                if (Presente[cont].indexOf('e!') > -1) {
+                    piel = ' entornoPresente';
+                    eo = 1
+                }
                 table_body += '<td style="position:relative">';
                 table_body += '<div id="' + Presente[cont] + '>' + (cont + 1) + '" class="estroma ' + simple + piel + '' + '">' + Presente[cont] + '</div>'
                 table_body += '<div id="O' + Presente[cont] + '" class="operador">' + eo + '</div>'
@@ -563,6 +576,9 @@ font-size:40px;
         $('#futuro').html(table_body);
         $('.estroma.manosPasado').css("background-color", colormanos[1])
         $('.estroma.manosPresente').css("background-color", colormanos[2])
+        $('.estroma.internoPresente').css("background-color", colormanos[4])
+        $('.estroma.internoPresente2').css("background-color", colormanos[5])
+        $('.estroma.entornoPresente').css("background-color", colormanos[6])
         $('.estroma.manosPresente').css("color", colort[2])
         $('.estroma.manosFuturo').css("background-color", colormanos[3])
 
@@ -625,6 +641,9 @@ font-size:40px;
             $('.estroma.simplefuturo').css("background-color", '#dff')
             $('.estroma.manosPasado').css("background-color", colormanos[1])
             $('.estroma.manosPresente').css("background-color", colormanos[2])
+            $('.estroma.internoPresente').css("background-color", colormanos[4])
+            $('.estroma.internoPresente2').css("background-color", colormanos[5])
+            $('.estroma.entornoPresente').css("background-color", colormanos[6])
             $('.estroma.manosPresente').css("color", '#000')
             $('.estroma.manosFuturo').css("background-color", colormanos[3])
             $(this).css("background-color", '#fff')
@@ -828,7 +847,14 @@ font-size:40px;
             if (colortn == 2) { colorm = 2; }
             if (colortn == 3) { colorm = 3; }
         }
-
+        if (segunda == 'i' && tercera == '!') {
+            noperador = 1
+            if (colortn == 2) { colorm = 4; }
+        }
+        if (segunda == 'e' && tercera == '!') {
+            noperador = 1
+            if (colortn == 2) { colorm = 6; }
+        }
         var quintaosexta = texto.substring(3)
         var sexta = ''
         var quinta = ''
