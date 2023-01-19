@@ -65,7 +65,9 @@ El número de operaciones ideal sería tres pero es demasiado complejo
   https://raw.githubusercontent.com/josepssv/EstromasDelYo/main/list/examples_en.txt
   
   
+  **Referencias**
   
+  https://es.m.wikipedia.org/wiki/Estroma_(filosof%C3%ADa)
        
        
 
